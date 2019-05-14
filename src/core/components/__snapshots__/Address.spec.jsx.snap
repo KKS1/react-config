@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Address render_Address 1`] = `
+Address {
+  "changeHandler": [Function],
+  "context": Object {},
+  "placeChangeHandler": [Function],
+  "propogateOnChange": [Function],
+  "props": Object {
+    "formData": Object {},
+    "idSchema": Object {
+      "$id": "formOne_AddressOne",
+    },
+    "label": "Address Label",
+    "name": "addressWidget",
+    "onChange": [Function],
+    "placeholder": "",
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <Address
+        formData={Object {}}
+        idSchema={
+          Object {
+            "$id": "formOne_AddressOne",
+          }
+        }
+        label="Address Label"
+        name="addressWidget"
+        onChange={[Function]}
+        placeholder=""
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <ForwardRef>
+        <LocationAutoComplete
+          id="formOne_AddressOne_address1"
+          label="Address"
+          onChange={[Function]}
+          onPlaceChange={[Function]}
+          placeholder=""
+        />
+        <TextField
+          id="formOne_AddressOne_address2"
+          label="Address Line 2"
+          name="textField"
+          onChange={[Function]}
+          placeholder=""
+        />
+        <TextField
+          id="formOne_AddressOne_city"
+          label="City"
+          name="textField"
+          onChange={[Function]}
+          placeholder=""
+        />
+        <Dropdown
+          customClasses="w-50"
+          id="formOne_AddressOne_state"
+          label="State"
+          onChange={[Function]}
+          options={
+            Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Please select one",
+                  "value": "",
+                },
+                Object {
+                  "label": "AK",
+                  "value": "AK",
+                },
+                Object {
+                  "label": "AL",
+                  "value": "AL",
+                },
+                Object {
+                  "label": "AZ",
+                  "value": "AZ",
+                },
+                Object {
+                  "label": "AR",
+                  "value": "AR",
+                },
+                Object {
+                  "label": "CA",
+                  "value": "CA",
+                },
+                Object {
+                  "label": "CO",
+                  "value": "CO",
+                },
+                Object {
+                  "label": "CT",
+                  "value": "CT",
+                },
+                Object {
+                  "label": "DE",
+                  "value": "DE",
+                },
+                Object {
+                  "label": "DC",
+                  "value": "DC",
+                },
+                Object {
+                  "label": "FL",
+                  "value": "FL",
+                },
+                Object {
+                  "label": "GA",
+                  "value": "GA",
+                },
+                Object {
+                  "label": "HI",
+                  "value": "HI",
+                },
+                Object {
+                  "label": "ID",
+                  "value": "ID",
+                },
+                Object {
+                  "label": "IL",
+                  "value": "IL",
+                },
+                Object {
+                  "label": "IN",
+                  "value": "IN",
+                },
+                Object {
+                  "label": "IA",
+                  "value": "IA",
+                },
+                Object {
+                  "label": "KS",
+                  "value": "KS",
+                },
+                Object {
+                  "label": "KY",
+                  "value": "KY",
+                },
+                Object {
+                  "label": "LA",
+                  "value": "LA",
+                },
+                Object {
+                  "label": "ME",
+                  "value": "ME",
+                },
+                Object {
+                  "label": "MD",
+                  "value": "MD",
+                },
+                Object {
+                  "label": "MA",
+                  "value": "MA",
+                },
+                Object {
+                  "label": "MI",
+                  "value": "MI",
+                },
+                Object {
+                  "label": "MN",
+                  "value": "MN",
+                },
+                Object {
+                  "label": "MS",
+                  "value": "MS",
+                },
+                Object {
+                  "label": "MO",
+                  "value": "MO",
+                },
+                Object {
+                  "label": "MT",
+                  "value": "MT",
+                },
+                Object {
+                  "label": "NE",
+                  "value": "NE",
+                },
+                Object {
+                  "label": "NV",
+                  "value": "NV",
+                },
+                Object {
+                  "label": "NH",
+                  "value": "NH",
+                },
+                Object {
+                  "label": "NJ",
+                  "value": "NJ",
+                },
+                Object {
+                  "label": "NM",
+                  "value": "NM",
+                },
+                Object {
+                  "label": "NY",
+                  "value": "NY",
+                },
+                Object {
+                  "label": "NC",
+                  "value": "NC",
+                },
+                Object {
+                  "label": "ND",
+                  "value": "ND",
+                },
+                Object {
+                  "label": "OH",
+                  "value": "OH",
+                },
+                Object {
+                  "label": "OK",
+                  "value": "OK",
+                },
+                Object {
+                  "label": "OR",
+                  "value": "OR",
+                },
+                Object {
+                  "label": "PA",
+                  "value": "PA",
+                },
+                Object {
+                  "label": "RI",
+                  "value": "RI",
+                },
+                Object {
+                  "label": "SC",
+                  "value": "SC",
+                },
+                Object {
+                  "label": "SD",
+                  "value": "SD",
+                },
+                Object {
+                  "label": "TN",
+                  "value": "TN",
+                },
+                Object {
+                  "label": "TX",
+                  "value": "TX",
+                },
+                Object {
+                  "label": "UT",
+                  "value": "UT",
+                },
+                Object {
+                  "label": "VT",
+                  "value": "VT",
+                },
+                Object {
+                  "label": "VA",
+                  "value": "VA",
+                },
+                Object {
+                  "label": "WA",
+                  "value": "WA",
+                },
+                Object {
+                  "label": "WV",
+                  "value": "WV",
+                },
+                Object {
+                  "label": "WI",
+                  "value": "WI",
+                },
+                Object {
+                  "label": "WY",
+                  "value": "WY",
+                },
+              ],
+            }
+          }
+        />
+        <TextField
+          id="formOne_AddressOne_zip"
+          label="Zip"
+          name="textField"
+          onChange={[Function]}
+          options={
+            Object {
+              "inputProps": Object {
+                "className": "w-50",
+              },
+            }
+          }
+          placeholder=""
+        />
+      </ForwardRef>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrencyField attach_props 1`] = `
+CurrencyField {
+  "changeHandler": [Function],
+  "context": Object {},
+  "props": Object {
+    "id": "formOne_labelOne",
+    "label": "Label",
+    "name": "currencyFormField",
+    "onChange": [Function],
+    "options": Object {
+      "maskconfig": Object {
+        "digits": 2,
+        "max": 100000,
+        "min": 0,
+      },
+    },
+    "placeholder": "",
+    "value": 100,
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <CurrencyField
+        id="formOne_labelOne"
+        label="Label"
+        name="currencyFormField"
+        onChange={[Function]}
+        options={
+          Object {
+            "maskconfig": Object {
+              "digits": 2,
+              "max": 100000,
+              "min": 0,
+            },
+          }
+        }
+        placeholder=""
+        value={100}
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <div
+        className="c-label-field"
+      >
+        <Label
+          id="formOne_labelOne"
+          label="Label"
+          name="currencyFormField"
+          onChange={[Function]}
+          options={
+            Object {
+              "maskconfig": Object {
+                "digits": 2,
+                "max": 100000,
+                "min": 0,
+              },
+            }
+          }
+          placeholder=""
+          value={100}
+        />
+        <div
+          className="d-flex"
+        >
+          <i
+            className="far fa-dollar-sign c-label-field__icon c-label-field__icon--prepend"
+          />
+          <MaskedInput
+            className="c-label-field__input c-label-field__input--icon-prefixed"
+            id="formOne_labelOne"
+            inputMode="numeric"
+            maskconfig={
+              Object {
+                "digits": 2,
+                "max": 100000,
+                "min": 0,
+              }
+            }
+            name="currencyFormField"
+            onChange={[Function]}
+            placeholder=""
+            type="text"
+            value={100}
+          />
+        </div>
+      </div>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
+
+exports[`CurrencyField call_onChange_prop 1`] = `
+CurrencyField {
+  "changeHandler": [Function],
+  "context": Object {},
+  "props": Object {
+    "id": "formOne_labelOne",
+    "label": "Label",
+    "name": "currencyFormField",
+    "onChange": [MockFunction],
+    "placeholder": "",
+    "value": 100,
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <CurrencyField
+        id="formOne_labelOne"
+        label="Label"
+        name="currencyFormField"
+        onChange={[MockFunction]}
+        placeholder=""
+        value={100}
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <div
+        className="c-label-field"
+      >
+        <Label
+          id="formOne_labelOne"
+          label="Label"
+          name="currencyFormField"
+          onChange={[MockFunction]}
+          placeholder=""
+          value={100}
+        />
+        <div
+          className="d-flex"
+        >
+          <i
+            className="far fa-dollar-sign c-label-field__icon c-label-field__icon--prepend"
+          />
+          <MaskedInput
+            className="c-label-field__input c-label-field__input--icon-prefixed"
+            id="formOne_labelOne"
+            inputMode="numeric"
+            maskconfig={
+              Object {
+                "alias": "numeric",
+                "autoGroup": true,
+                "digits": 0,
+                "digitsOptional": true,
+                "groupSeparator": ",",
+                "min": 0,
+                "rightAlign": false,
+              }
+            }
+            name="currencyFormField"
+            onChange={[Function]}
+            placeholder=""
+            type="text"
+            value={100}
+          />
+        </div>
+      </div>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
+
+exports[`CurrencyField render_CurrencyField 1`] = `
+CurrencyField {
+  "changeHandler": [Function],
+  "context": Object {},
+  "props": Object {
+    "label": "Label",
+    "name": "currencyFormField",
+    "onChange": [Function],
+    "placeholder": "",
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <CurrencyField
+        label="Label"
+        name="currencyFormField"
+        onChange={[Function]}
+        placeholder=""
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <div
+        className="c-label-field"
+      >
+        <Label
+          label="Label"
+          name="currencyFormField"
+          onChange={[Function]}
+          placeholder=""
+        />
+        <div
+          className="d-flex"
+        >
+          <i
+            className="far fa-dollar-sign c-label-field__icon c-label-field__icon--prepend"
+          />
+          <MaskedInput
+            className="c-label-field__input c-label-field__input--icon-prefixed"
+            inputMode="numeric"
+            maskconfig={
+              Object {
+                "alias": "numeric",
+                "autoGroup": true,
+                "digits": 0,
+                "digitsOptional": true,
+                "groupSeparator": ",",
+                "min": 0,
+                "rightAlign": false,
+              }
+            }
+            name="currencyFormField"
+            onChange={[Function]}
+            placeholder=""
+            type="text"
+            value={0}
+          />
+        </div>
+      </div>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

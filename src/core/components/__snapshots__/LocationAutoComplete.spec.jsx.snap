@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationAutoComplete call_onChange_prop 1`] = `
+LocationAutoComplete {
+  "autocomplete": null,
+  "changeHandler": [Function],
+  "context": Object {},
+  "focusHandler": [Function],
+  "handlePlaceChanged": [Function],
+  "hasFocused": false,
+  "props": Object {
+    "id": "formOne_labelOne",
+    "onChange": [MockFunction],
+    "onPlaceChange": [Function],
+    "placeholder": "",
+    "value": "303 2nd st",
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <LocationAutoComplete
+        id="formOne_labelOne"
+        onChange={[MockFunction]}
+        onPlaceChange={[Function]}
+        placeholder=""
+        value="303 2nd st"
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <div
+        className="c-label-field"
+      >
+        <Label
+          for="formOne_labelOne"
+          id="formOne_labelOne"
+          onChange={[MockFunction]}
+          onPlaceChange={[Function]}
+          placeholder=""
+          value="303 2nd st"
+        />
+        <input
+          aria-autocomplete="both"
+          aria-haspopup="true"
+          aria-label="Type your text here to display the list of address choices."
+          className="address"
+          id="formOne_labelOne"
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          role="combobox"
+          type="text"
+          value="303 2nd st"
+        />
+      </div>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
+
+exports[`LocationAutoComplete call_onPlaceChange_prop 1`] = `
+LocationAutoComplete {
+  "autocomplete": Object {
+    "getPlace": [Function],
+  },
+  "changeHandler": [Function],
+  "context": Object {},
+  "focusHandler": [Function],
+  "handlePlaceChanged": [Function],
+  "hasFocused": false,
+  "props": Object {
+    "id": "formOne_labelOne",
+    "onChange": [Function],
+    "onPlaceChange": [MockFunction],
+    "placeholder": "",
+    "value": "303 2nd St",
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <LocationAutoComplete
+        id="formOne_labelOne"
+        onChange={[Function]}
+        onPlaceChange={[MockFunction]}
+        placeholder=""
+        value="303 2nd St"
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <div
+        className="c-label-field"
+      >
+        <Label
+          for="formOne_labelOne"
+          id="formOne_labelOne"
+          onChange={[Function]}
+          onPlaceChange={[MockFunction]}
+          placeholder=""
+          value="303 2nd St"
+        />
+        <input
+          aria-autocomplete="both"
+          aria-haspopup="true"
+          aria-label="Type your text here to display the list of address choices."
+          className="address"
+          id="formOne_labelOne"
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          role="combobox"
+          type="text"
+          value="303 2nd St"
+        />
+      </div>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
+
+exports[`LocationAutoComplete render_LocationAutoComplete 1`] = `
+LocationAutoComplete {
+  "autocomplete": null,
+  "changeHandler": [Function],
+  "context": Object {},
+  "focusHandler": [Function],
+  "handlePlaceChanged": [Function],
+  "hasFocused": false,
+  "props": Object {
+    "id": "formOne_labelOne",
+    "onChange": [Function],
+    "onPlaceChange": [Function],
+    "placeholder": "",
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <LocationAutoComplete
+        id="formOne_labelOne"
+        onChange={[Function]}
+        onPlaceChange={[Function]}
+        placeholder=""
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <div
+        className="c-label-field"
+      >
+        <Label
+          for="formOne_labelOne"
+          id="formOne_labelOne"
+          onChange={[Function]}
+          onPlaceChange={[Function]}
+          placeholder=""
+        />
+        <input
+          aria-autocomplete="both"
+          aria-haspopup="true"
+          aria-label="Type your text here to display the list of address choices."
+          className="address"
+          id="formOne_labelOne"
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          role="combobox"
+          type="text"
+          value=""
+        />
+      </div>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

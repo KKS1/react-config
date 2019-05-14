@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paragraph render_Paragraph 1`] = `
+<p>
+   
+  paragraph content
+   
+</p>
+`;
+
+exports[`Paragraph render_Paragraph_with_schema 1`] = `
+<p>
+   
+  paragraph content
+   
+</p>
+`;

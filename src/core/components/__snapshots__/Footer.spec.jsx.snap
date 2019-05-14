@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer call_back_and_next_handler_props 1`] = `
+Footer {
+  "context": Object {},
+  "props": Object {
+    "id": "formOne_labelOne",
+    "onBackClick": [MockFunction],
+    "onNextClick": [MockFunction],
+    "value": 100,
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <Footer
+        id="formOne_labelOne"
+        onBackClick={[MockFunction]}
+        onNextClick={[MockFunction]}
+        value={100}
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <div
+        className="c-loan-application__footer component row"
+      >
+        <div
+          className="col-6 col-md-2 form-group"
+        >
+          <button
+            className="btn btn--block btn--ghost js-substep-nav js-form-footer-next"
+            onClick={[MockFunction]}
+            type="button"
+          >
+            Next
+            <div
+              aria-hidden="true"
+              className="btn__icon btn__icon--lg btn__icon--pad-left far fa-chevron-right c-icon"
+            />
+          </button>
+        </div>
+        <div
+          className="col-6 col-md-2 form-group"
+        >
+          <button
+            className="btn btn--block btn--ghost js-substep-nav js-form-footer-back"
+            onClick={[MockFunction]}
+            type="button"
+          >
+            <div
+              aria-hidden="true"
+              className="btn__icon btn__icon--lg btn__icon--pad-right far fa-chevron-left c-icon"
+            />
+            Back
+          </button>
+        </div>
+      </div>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
+
+exports[`Footer render_Footer 1`] = `
+Footer {
+  "context": Object {},
+  "props": Object {
+    "onBackClick": [Function],
+    "onNextClick": [Function],
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <Footer
+        onBackClick={[Function]}
+        onNextClick={[Function]}
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <div
+        className="c-loan-application__footer component row"
+      >
+        <div
+          className="col-6 col-md-2 form-group"
+        >
+          <button
+            className="btn btn--block btn--ghost js-substep-nav js-form-footer-next"
+            onClick={[Function]}
+            type="button"
+          >
+            Next
+            <div
+              aria-hidden="true"
+              className="btn__icon btn__icon--lg btn__icon--pad-left far fa-chevron-right c-icon"
+            />
+          </button>
+        </div>
+        <div
+          className="col-6 col-md-2 form-group"
+        >
+          <button
+            className="btn btn--block btn--ghost js-substep-nav js-form-footer-back"
+            onClick={[Function]}
+            type="button"
+          >
+            <div
+              aria-hidden="true"
+              className="btn__icon btn__icon--lg btn__icon--pad-right far fa-chevron-left c-icon"
+            />
+            Back
+          </button>
+        </div>
+      </div>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

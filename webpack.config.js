@@ -2,9 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: {
-    main: ['./src/index.js'],
-  },
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'build/'),
     publicPath: '/',
@@ -19,7 +17,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ['babel-loader', 'eslint-loader'],
+        use: ['babel-loader'],
       },
       {
         test: /\.scss$/,
@@ -43,4 +41,19 @@ module.exports = {
       template: path.resolve(__dirname, './index.html'),
     }),
   ],
+  resolve: {
+    extensions: [
+      '.js',
+      '.jsx',
+      '.sass',
+      '.scss',
+      '.css',
+      '.module.sass',
+      '.module.scss',
+      '.module.css',
+    ],
+    alias: {
+      AtomicComponents: path.resolve(__dirname, 'src/core/components/'),
+    },
+  },
 };

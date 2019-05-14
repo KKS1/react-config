@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atomic contains_appropriate_objects 1`] = `
+Object {
+  "Accordion": [Function],
+  "Address": [Function],
+  "ButtonGroup": [Function],
+  "Checkbox": [Function],
+  "CheckboxList": [Function],
+  "CurrencyField": [Function],
+  "DateField": [Function],
+  "Dropdown": [Function],
+  "Footer": [Function],
+  "Header": [Function],
+  "Label": [Function],
+  "LocationAutoComplete": [Function],
+  "MaskedInput": [Function],
+  "NumericField": [Function],
+  "Paragraph": [Function],
+  "PercentField": [Function],
+  "RadioGroup": [Function],
+  "TextField": [Function],
+  "Zillow": [Function],
+}
+`;

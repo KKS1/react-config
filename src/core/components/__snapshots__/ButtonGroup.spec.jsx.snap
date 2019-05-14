@@ -1,0 +1,2761 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroup click_ButtonGroup_should_call_onChange_with_value 1`] = `
+ButtonGroup {
+  "_reactInternalFiber": FiberNode {
+    "_debugHookTypes": null,
+    "_debugID": 63,
+    "_debugIsCurrentlyTiming": false,
+    "_debugOwner": FiberNode {
+      "_debugHookTypes": null,
+      "_debugID": 62,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": null,
+      "_debugSource": null,
+      "actualDuration": 0,
+      "actualStartTime": -1,
+      "alternate": null,
+      "child": [Circular],
+      "childExpirationTime": 0,
+      "contextDependencies": null,
+      "effectTag": 1,
+      "elementType": [Function],
+      "expirationTime": 0,
+      "firstEffect": null,
+      "index": 0,
+      "key": null,
+      "lastEffect": null,
+      "memoizedProps": Object {
+        "Component": [Function],
+        "context": null,
+        "props": Object {
+          "id": "formOne_ButtonGroupOne",
+          "label": "ButtonGroup Label",
+          "name": "btnGroup",
+          "onChange": [Function],
+          "options": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Yes",
+                "value": "1",
+              },
+              Object {
+                "label": "No",
+                "value": "0",
+              },
+            ],
+          },
+        },
+        "wrappingComponentProps": null,
+      },
+      "memoizedState": Object {
+        "context": null,
+        "mount": true,
+        "props": Object {
+          "id": "formOne_ButtonGroupOne",
+          "label": "ButtonGroup Label",
+          "name": "btnGroup",
+          "onChange": [Function],
+          "options": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Yes",
+                "value": "1",
+              },
+              Object {
+                "label": "No",
+                "value": "0",
+              },
+            ],
+          },
+        },
+        "wrappingComponentProps": null,
+      },
+      "mode": 0,
+      "nextEffect": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 60,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 60,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": [Circular],
+          "child": null,
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 0,
+          "elementType": null,
+          "expirationTime": 1073741823,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": null,
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": null,
+          "ref": null,
+          "return": null,
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": Object {
+            "containerInfo": <div>
+              <div
+                class="c-label-field"
+              >
+                <label
+                  for="formOne_ButtonGroupOne"
+                >
+                  ButtonGroup Label
+                </label>
+                <div
+                  aria-label="ButtonGroup Label"
+                  class="btn-group"
+                  id="formOne_ButtonGroupOne"
+                  name="btnGroup"
+                  role="group"
+                >
+                  <button
+                    class="btn"
+                    type="button"
+                  >
+                    Yes
+                  </button>
+                  <button
+                    class="btn"
+                    type="button"
+                  >
+                    No
+                  </button>
+                </div>
+              </div>
+            </div>,
+            "context": Object {},
+            "current": [Circular],
+            "didError": false,
+            "earliestPendingTime": 0,
+            "earliestSuspendedTime": 0,
+            "expirationTime": 0,
+            "finishedWork": null,
+            "firstBatch": null,
+            "hydrate": false,
+            "interactionThreadID": 15,
+            "latestPendingTime": 0,
+            "latestPingedTime": 0,
+            "latestSuspendedTime": 0,
+            "memoizedInteractions": Set {},
+            "nextExpirationTimeToWorkOn": 0,
+            "nextScheduledRoot": null,
+            "pendingChildren": null,
+            "pendingCommitExpirationTime": 0,
+            "pendingContext": null,
+            "pendingInteractionMap": Map {},
+            "pingCache": null,
+            "timeoutHandle": -1,
+          },
+          "tag": 3,
+          "treeBaseDuration": 0,
+          "type": null,
+          "updateQueue": Object {
+            "baseState": null,
+            "firstCapturedEffect": null,
+            "firstCapturedUpdate": null,
+            "firstEffect": null,
+            "firstUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_ButtonGroupOne",
+                      "label": "ButtonGroup Label",
+                      "name": "btnGroup",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Yes",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "No",
+                            "value": "0",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+            "lastCapturedEffect": null,
+            "lastCapturedUpdate": null,
+            "lastEffect": null,
+            "lastUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_ButtonGroupOne",
+                      "label": "ButtonGroup Label",
+                      "name": "btnGroup",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Yes",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "No",
+                            "value": "0",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+          },
+        },
+        "child": [Circular],
+        "childExpirationTime": 0,
+        "contextDependencies": null,
+        "effectTag": 32,
+        "elementType": null,
+        "expirationTime": 0,
+        "firstEffect": [Circular],
+        "index": 0,
+        "key": null,
+        "lastEffect": [Circular],
+        "memoizedProps": null,
+        "memoizedState": Object {
+          "element": <WrapperComponent
+            Component={[Function]}
+            context={null}
+            props={
+              Object {
+                "id": "formOne_ButtonGroupOne",
+                "label": "ButtonGroup Label",
+                "name": "btnGroup",
+                "onChange": [Function],
+                "options": Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Yes",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "No",
+                      "value": "0",
+                    },
+                  ],
+                },
+              }
+            }
+            wrappingComponentProps={null}
+          />,
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": Object {
+          "containerInfo": <div>
+            <div
+              class="c-label-field"
+            >
+              <label
+                for="formOne_ButtonGroupOne"
+              >
+                ButtonGroup Label
+              </label>
+              <div
+                aria-label="ButtonGroup Label"
+                class="btn-group"
+                id="formOne_ButtonGroupOne"
+                name="btnGroup"
+                role="group"
+              >
+                <button
+                  class="btn"
+                  type="button"
+                >
+                  Yes
+                </button>
+                <button
+                  class="btn"
+                  type="button"
+                >
+                  No
+                </button>
+              </div>
+            </div>
+          </div>,
+          "context": Object {},
+          "current": [Circular],
+          "didError": false,
+          "earliestPendingTime": 0,
+          "earliestSuspendedTime": 0,
+          "expirationTime": 0,
+          "finishedWork": null,
+          "firstBatch": null,
+          "hydrate": false,
+          "interactionThreadID": 15,
+          "latestPendingTime": 0,
+          "latestPingedTime": 0,
+          "latestSuspendedTime": 0,
+          "memoizedInteractions": Set {},
+          "nextExpirationTimeToWorkOn": 0,
+          "nextScheduledRoot": null,
+          "pendingChildren": null,
+          "pendingCommitExpirationTime": 0,
+          "pendingContext": null,
+          "pendingInteractionMap": Map {},
+          "pingCache": null,
+          "timeoutHandle": -1,
+        },
+        "tag": 3,
+        "treeBaseDuration": 0,
+        "type": null,
+        "updateQueue": Object {
+          "baseState": Object {
+            "element": <WrapperComponent
+              Component={[Function]}
+              context={null}
+              props={
+                Object {
+                  "id": "formOne_ButtonGroupOne",
+                  "label": "ButtonGroup Label",
+                  "name": "btnGroup",
+                  "onChange": [Function],
+                  "options": Object {
+                    "enumOptions": Array [
+                      Object {
+                        "label": "Yes",
+                        "value": "1",
+                      },
+                      Object {
+                        "label": "No",
+                        "value": "0",
+                      },
+                    ],
+                  },
+                }
+              }
+              wrappingComponentProps={null}
+            />,
+          },
+          "firstCapturedEffect": null,
+          "firstCapturedUpdate": null,
+          "firstEffect": null,
+          "firstUpdate": null,
+          "lastCapturedEffect": null,
+          "lastCapturedUpdate": null,
+          "lastEffect": null,
+          "lastUpdate": null,
+        },
+      },
+      "pendingProps": Object {
+        "Component": [Function],
+        "context": null,
+        "props": Object {
+          "id": "formOne_ButtonGroupOne",
+          "label": "ButtonGroup Label",
+          "name": "btnGroup",
+          "onChange": [Function],
+          "options": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Yes",
+                "value": "1",
+              },
+              Object {
+                "label": "No",
+                "value": "0",
+              },
+            ],
+          },
+        },
+        "wrappingComponentProps": null,
+      },
+      "ref": null,
+      "return": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 60,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 60,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": [Circular],
+          "child": null,
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 0,
+          "elementType": null,
+          "expirationTime": 1073741823,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": null,
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": null,
+          "ref": null,
+          "return": null,
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": Object {
+            "containerInfo": <div>
+              <div
+                class="c-label-field"
+              >
+                <label
+                  for="formOne_ButtonGroupOne"
+                >
+                  ButtonGroup Label
+                </label>
+                <div
+                  aria-label="ButtonGroup Label"
+                  class="btn-group"
+                  id="formOne_ButtonGroupOne"
+                  name="btnGroup"
+                  role="group"
+                >
+                  <button
+                    class="btn"
+                    type="button"
+                  >
+                    Yes
+                  </button>
+                  <button
+                    class="btn"
+                    type="button"
+                  >
+                    No
+                  </button>
+                </div>
+              </div>
+            </div>,
+            "context": Object {},
+            "current": [Circular],
+            "didError": false,
+            "earliestPendingTime": 0,
+            "earliestSuspendedTime": 0,
+            "expirationTime": 0,
+            "finishedWork": null,
+            "firstBatch": null,
+            "hydrate": false,
+            "interactionThreadID": 15,
+            "latestPendingTime": 0,
+            "latestPingedTime": 0,
+            "latestSuspendedTime": 0,
+            "memoizedInteractions": Set {},
+            "nextExpirationTimeToWorkOn": 0,
+            "nextScheduledRoot": null,
+            "pendingChildren": null,
+            "pendingCommitExpirationTime": 0,
+            "pendingContext": null,
+            "pendingInteractionMap": Map {},
+            "pingCache": null,
+            "timeoutHandle": -1,
+          },
+          "tag": 3,
+          "treeBaseDuration": 0,
+          "type": null,
+          "updateQueue": Object {
+            "baseState": null,
+            "firstCapturedEffect": null,
+            "firstCapturedUpdate": null,
+            "firstEffect": null,
+            "firstUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_ButtonGroupOne",
+                      "label": "ButtonGroup Label",
+                      "name": "btnGroup",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Yes",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "No",
+                            "value": "0",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+            "lastCapturedEffect": null,
+            "lastCapturedUpdate": null,
+            "lastEffect": null,
+            "lastUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_ButtonGroupOne",
+                      "label": "ButtonGroup Label",
+                      "name": "btnGroup",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Yes",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "No",
+                            "value": "0",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+          },
+        },
+        "child": [Circular],
+        "childExpirationTime": 0,
+        "contextDependencies": null,
+        "effectTag": 32,
+        "elementType": null,
+        "expirationTime": 0,
+        "firstEffect": [Circular],
+        "index": 0,
+        "key": null,
+        "lastEffect": [Circular],
+        "memoizedProps": null,
+        "memoizedState": Object {
+          "element": <WrapperComponent
+            Component={[Function]}
+            context={null}
+            props={
+              Object {
+                "id": "formOne_ButtonGroupOne",
+                "label": "ButtonGroup Label",
+                "name": "btnGroup",
+                "onChange": [Function],
+                "options": Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Yes",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "No",
+                      "value": "0",
+                    },
+                  ],
+                },
+              }
+            }
+            wrappingComponentProps={null}
+          />,
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": Object {
+          "containerInfo": <div>
+            <div
+              class="c-label-field"
+            >
+              <label
+                for="formOne_ButtonGroupOne"
+              >
+                ButtonGroup Label
+              </label>
+              <div
+                aria-label="ButtonGroup Label"
+                class="btn-group"
+                id="formOne_ButtonGroupOne"
+                name="btnGroup"
+                role="group"
+              >
+                <button
+                  class="btn"
+                  type="button"
+                >
+                  Yes
+                </button>
+                <button
+                  class="btn"
+                  type="button"
+                >
+                  No
+                </button>
+              </div>
+            </div>
+          </div>,
+          "context": Object {},
+          "current": [Circular],
+          "didError": false,
+          "earliestPendingTime": 0,
+          "earliestSuspendedTime": 0,
+          "expirationTime": 0,
+          "finishedWork": null,
+          "firstBatch": null,
+          "hydrate": false,
+          "interactionThreadID": 15,
+          "latestPendingTime": 0,
+          "latestPingedTime": 0,
+          "latestSuspendedTime": 0,
+          "memoizedInteractions": Set {},
+          "nextExpirationTimeToWorkOn": 0,
+          "nextScheduledRoot": null,
+          "pendingChildren": null,
+          "pendingCommitExpirationTime": 0,
+          "pendingContext": null,
+          "pendingInteractionMap": Map {},
+          "pingCache": null,
+          "timeoutHandle": -1,
+        },
+        "tag": 3,
+        "treeBaseDuration": 0,
+        "type": null,
+        "updateQueue": Object {
+          "baseState": Object {
+            "element": <WrapperComponent
+              Component={[Function]}
+              context={null}
+              props={
+                Object {
+                  "id": "formOne_ButtonGroupOne",
+                  "label": "ButtonGroup Label",
+                  "name": "btnGroup",
+                  "onChange": [Function],
+                  "options": Object {
+                    "enumOptions": Array [
+                      Object {
+                        "label": "Yes",
+                        "value": "1",
+                      },
+                      Object {
+                        "label": "No",
+                        "value": "0",
+                      },
+                    ],
+                  },
+                }
+              }
+              wrappingComponentProps={null}
+            />,
+          },
+          "firstCapturedEffect": null,
+          "firstCapturedUpdate": null,
+          "firstEffect": null,
+          "firstUpdate": null,
+          "lastCapturedEffect": null,
+          "lastCapturedUpdate": null,
+          "lastEffect": null,
+          "lastUpdate": null,
+        },
+      },
+      "selfBaseDuration": 0,
+      "sibling": null,
+      "stateNode": WrapperComponent {
+        "_reactInternalFiber": [Circular],
+        "_reactInternalInstance": Object {},
+        "context": Object {},
+        "props": Object {
+          "Component": [Function],
+          "context": null,
+          "props": Object {
+            "id": "formOne_ButtonGroupOne",
+            "label": "ButtonGroup Label",
+            "name": "btnGroup",
+            "onChange": [Function],
+            "options": Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Yes",
+                  "value": "1",
+                },
+                Object {
+                  "label": "No",
+                  "value": "0",
+                },
+              ],
+            },
+          },
+          "wrappingComponentProps": null,
+        },
+        "refs": Object {},
+        "rootFinderInstance": null,
+        "state": Object {
+          "context": null,
+          "mount": true,
+          "props": Object {
+            "id": "formOne_ButtonGroupOne",
+            "label": "ButtonGroup Label",
+            "name": "btnGroup",
+            "onChange": [Function],
+            "options": Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Yes",
+                  "value": "1",
+                },
+                Object {
+                  "label": "No",
+                  "value": "0",
+                },
+              ],
+            },
+          },
+          "wrappingComponentProps": null,
+        },
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "tag": 1,
+      "treeBaseDuration": 0,
+      "type": [Function],
+      "updateQueue": null,
+    },
+    "_debugSource": null,
+    "actualDuration": 0,
+    "actualStartTime": -1,
+    "alternate": null,
+    "child": FiberNode {
+      "_debugHookTypes": null,
+      "_debugID": 64,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": [Circular],
+      "_debugSource": null,
+      "actualDuration": 0,
+      "actualStartTime": -1,
+      "alternate": null,
+      "child": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 65,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": [Circular],
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": null,
+        "child": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 67,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": null,
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 0,
+          "elementType": "label",
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": "ButtonGroup Label",
+            "htmlFor": "formOne_ButtonGroupOne",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": "ButtonGroup Label",
+            "htmlFor": "formOne_ButtonGroupOne",
+          },
+          "ref": null,
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": <label
+            for="formOne_ButtonGroupOne"
+          >
+            ButtonGroup Label
+          </label>,
+          "tag": 5,
+          "treeBaseDuration": 0,
+          "type": "label",
+          "updateQueue": null,
+        },
+        "childExpirationTime": 0,
+        "contextDependencies": null,
+        "effectTag": 1,
+        "elementType": [Function],
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "for": "formOne_ButtonGroupOne",
+          "id": "formOne_ButtonGroupOne",
+          "label": "ButtonGroup Label",
+          "name": "btnGroup",
+          "onChange": [Function],
+          "options": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Yes",
+                "value": "1",
+              },
+              Object {
+                "label": "No",
+                "value": "0",
+              },
+            ],
+          },
+        },
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "for": "formOne_ButtonGroupOne",
+          "id": "formOne_ButtonGroupOne",
+          "label": "ButtonGroup Label",
+          "name": "btnGroup",
+          "onChange": [Function],
+          "options": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Yes",
+                "value": "1",
+              },
+              Object {
+                "label": "No",
+                "value": "0",
+              },
+            ],
+          },
+        },
+        "ref": null,
+        "return": [Circular],
+        "selfBaseDuration": 0,
+        "sibling": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 66,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 68,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 70,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": "button",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "Yes",
+                "className": "btn",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "Yes",
+                "className": "btn",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <button
+                class="btn"
+                type="button"
+              >
+                Yes
+              </button>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "button",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 1,
+            "elementType": [Function],
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": "0",
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Yes",
+                  "value": "1",
+                },
+                Object {
+                  "label": "No",
+                  "value": "0",
+                },
+              ],
+              "id": "formOne_ButtonGroupOne",
+              "index": 0,
+              "label": "ButtonGroup Label",
+              "name": "btnGroup",
+              "onChange": [Function],
+              "option": Object {
+                "label": "Yes",
+                "value": "1",
+              },
+              "options": Object {
+                "enumOptions": Array [
+                  Object {
+                    "label": "Yes",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "No",
+                    "value": "0",
+                  },
+                ],
+              },
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Yes",
+                  "value": "1",
+                },
+                Object {
+                  "label": "No",
+                  "value": "0",
+                },
+              ],
+              "id": "formOne_ButtonGroupOne",
+              "index": 0,
+              "label": "ButtonGroup Label",
+              "name": "btnGroup",
+              "onChange": [Function],
+              "option": Object {
+                "label": "Yes",
+                "value": "1",
+              },
+              "options": Object {
+                "enumOptions": Array [
+                  Object {
+                    "label": "Yes",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "No",
+                    "value": "0",
+                  },
+                ],
+              },
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 69,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 71,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "button",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "No",
+                  "className": "btn",
+                  "onClick": [Function],
+                  "type": "button",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "No",
+                  "className": "btn",
+                  "onClick": [Function],
+                  "type": "button",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <button
+                  class="btn"
+                  type="button"
+                >
+                  No
+                </button>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "button",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 1,
+              "elementType": [Function],
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": "1",
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "enumOptions": Array [
+                  Object {
+                    "label": "Yes",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "No",
+                    "value": "0",
+                  },
+                ],
+                "id": "formOne_ButtonGroupOne",
+                "index": 1,
+                "label": "ButtonGroup Label",
+                "name": "btnGroup",
+                "onChange": [Function],
+                "option": Object {
+                  "label": "No",
+                  "value": "0",
+                },
+                "options": Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Yes",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "No",
+                      "value": "0",
+                    },
+                  ],
+                },
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "enumOptions": Array [
+                  Object {
+                    "label": "Yes",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "No",
+                    "value": "0",
+                  },
+                ],
+                "id": "formOne_ButtonGroupOne",
+                "index": 1,
+                "label": "ButtonGroup Label",
+                "name": "btnGroup",
+                "onChange": [Function],
+                "option": Object {
+                  "label": "No",
+                  "value": "0",
+                },
+                "options": Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Yes",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "No",
+                      "value": "0",
+                    },
+                  ],
+                },
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": null,
+              "tag": 0,
+              "treeBaseDuration": 0,
+              "type": [Function],
+              "updateQueue": null,
+            },
+            "stateNode": null,
+            "tag": 0,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 0,
+          "elementType": "div",
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 1,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "aria-label": "ButtonGroup Label",
+            "children": Array [
+              <ButtonItem
+                enumOptions={
+                  Array [
+                    Object {
+                      "label": "Yes",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "No",
+                      "value": "0",
+                    },
+                  ]
+                }
+                id="formOne_ButtonGroupOne"
+                index={0}
+                label="ButtonGroup Label"
+                name="btnGroup"
+                onChange={[Function]}
+                option={
+                  Object {
+                    "label": "Yes",
+                    "value": "1",
+                  }
+                }
+                options={
+                  Object {
+                    "enumOptions": Array [
+                      Object {
+                        "label": "Yes",
+                        "value": "1",
+                      },
+                      Object {
+                        "label": "No",
+                        "value": "0",
+                      },
+                    ],
+                  }
+                }
+              />,
+              <ButtonItem
+                enumOptions={
+                  Array [
+                    Object {
+                      "label": "Yes",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "No",
+                      "value": "0",
+                    },
+                  ]
+                }
+                id="formOne_ButtonGroupOne"
+                index={1}
+                label="ButtonGroup Label"
+                name="btnGroup"
+                onChange={[Function]}
+                option={
+                  Object {
+                    "label": "No",
+                    "value": "0",
+                  }
+                }
+                options={
+                  Object {
+                    "enumOptions": Array [
+                      Object {
+                        "label": "Yes",
+                        "value": "1",
+                      },
+                      Object {
+                        "label": "No",
+                        "value": "0",
+                      },
+                    ],
+                  }
+                }
+              />,
+            ],
+            "className": "btn-group",
+            "id": "formOne_ButtonGroupOne",
+            "name": "btnGroup",
+            "role": "group",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "aria-label": "ButtonGroup Label",
+            "children": Array [
+              <ButtonItem
+                enumOptions={
+                  Array [
+                    Object {
+                      "label": "Yes",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "No",
+                      "value": "0",
+                    },
+                  ]
+                }
+                id="formOne_ButtonGroupOne"
+                index={0}
+                label="ButtonGroup Label"
+                name="btnGroup"
+                onChange={[Function]}
+                option={
+                  Object {
+                    "label": "Yes",
+                    "value": "1",
+                  }
+                }
+                options={
+                  Object {
+                    "enumOptions": Array [
+                      Object {
+                        "label": "Yes",
+                        "value": "1",
+                      },
+                      Object {
+                        "label": "No",
+                        "value": "0",
+                      },
+                    ],
+                  }
+                }
+              />,
+              <ButtonItem
+                enumOptions={
+                  Array [
+                    Object {
+                      "label": "Yes",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "No",
+                      "value": "0",
+                    },
+                  ]
+                }
+                id="formOne_ButtonGroupOne"
+                index={1}
+                label="ButtonGroup Label"
+                name="btnGroup"
+                onChange={[Function]}
+                option={
+                  Object {
+                    "label": "No",
+                    "value": "0",
+                  }
+                }
+                options={
+                  Object {
+                    "enumOptions": Array [
+                      Object {
+                        "label": "Yes",
+                        "value": "1",
+                      },
+                      Object {
+                        "label": "No",
+                        "value": "0",
+                      },
+                    ],
+                  }
+                }
+              />,
+            ],
+            "className": "btn-group",
+            "id": "formOne_ButtonGroupOne",
+            "name": "btnGroup",
+            "role": "group",
+          },
+          "ref": null,
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": <div
+            aria-label="ButtonGroup Label"
+            class="btn-group"
+            id="formOne_ButtonGroupOne"
+            name="btnGroup"
+            role="group"
+          >
+            <button
+              class="btn"
+              type="button"
+            >
+              Yes
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              No
+            </button>
+          </div>,
+          "tag": 5,
+          "treeBaseDuration": 0,
+          "type": "div",
+          "updateQueue": null,
+        },
+        "stateNode": null,
+        "tag": 0,
+        "treeBaseDuration": 0,
+        "type": [Function],
+        "updateQueue": null,
+      },
+      "childExpirationTime": 0,
+      "contextDependencies": null,
+      "effectTag": 0,
+      "elementType": "div",
+      "expirationTime": 0,
+      "firstEffect": null,
+      "index": 0,
+      "key": null,
+      "lastEffect": null,
+      "memoizedProps": Object {
+        "children": Array [
+          <Label
+            for="formOne_ButtonGroupOne"
+            id="formOne_ButtonGroupOne"
+            label="ButtonGroup Label"
+            name="btnGroup"
+            onChange={[Function]}
+            options={
+              Object {
+                "enumOptions": Array [
+                  Object {
+                    "label": "Yes",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "No",
+                    "value": "0",
+                  },
+                ],
+              }
+            }
+          />,
+          <div
+            aria-label="ButtonGroup Label"
+            className="btn-group"
+            id="formOne_ButtonGroupOne"
+            name="btnGroup"
+            role="group"
+          >
+            <ButtonItem
+              enumOptions={
+                Array [
+                  Object {
+                    "label": "Yes",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "No",
+                    "value": "0",
+                  },
+                ]
+              }
+              id="formOne_ButtonGroupOne"
+              index={0}
+              label="ButtonGroup Label"
+              name="btnGroup"
+              onChange={[Function]}
+              option={
+                Object {
+                  "label": "Yes",
+                  "value": "1",
+                }
+              }
+              options={
+                Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Yes",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "No",
+                      "value": "0",
+                    },
+                  ],
+                }
+              }
+            />
+            <ButtonItem
+              enumOptions={
+                Array [
+                  Object {
+                    "label": "Yes",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "No",
+                    "value": "0",
+                  },
+                ]
+              }
+              id="formOne_ButtonGroupOne"
+              index={1}
+              label="ButtonGroup Label"
+              name="btnGroup"
+              onChange={[Function]}
+              option={
+                Object {
+                  "label": "No",
+                  "value": "0",
+                }
+              }
+              options={
+                Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Yes",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "No",
+                      "value": "0",
+                    },
+                  ],
+                }
+              }
+            />
+          </div>,
+        ],
+        "className": "c-label-field",
+      },
+      "memoizedState": null,
+      "mode": 0,
+      "nextEffect": null,
+      "pendingProps": Object {
+        "children": Array [
+          <Label
+            for="formOne_ButtonGroupOne"
+            id="formOne_ButtonGroupOne"
+            label="ButtonGroup Label"
+            name="btnGroup"
+            onChange={[Function]}
+            options={
+              Object {
+                "enumOptions": Array [
+                  Object {
+                    "label": "Yes",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "No",
+                    "value": "0",
+                  },
+                ],
+              }
+            }
+          />,
+          <div
+            aria-label="ButtonGroup Label"
+            className="btn-group"
+            id="formOne_ButtonGroupOne"
+            name="btnGroup"
+            role="group"
+          >
+            <ButtonItem
+              enumOptions={
+                Array [
+                  Object {
+                    "label": "Yes",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "No",
+                    "value": "0",
+                  },
+                ]
+              }
+              id="formOne_ButtonGroupOne"
+              index={0}
+              label="ButtonGroup Label"
+              name="btnGroup"
+              onChange={[Function]}
+              option={
+                Object {
+                  "label": "Yes",
+                  "value": "1",
+                }
+              }
+              options={
+                Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Yes",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "No",
+                      "value": "0",
+                    },
+                  ],
+                }
+              }
+            />
+            <ButtonItem
+              enumOptions={
+                Array [
+                  Object {
+                    "label": "Yes",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "No",
+                    "value": "0",
+                  },
+                ]
+              }
+              id="formOne_ButtonGroupOne"
+              index={1}
+              label="ButtonGroup Label"
+              name="btnGroup"
+              onChange={[Function]}
+              option={
+                Object {
+                  "label": "No",
+                  "value": "0",
+                }
+              }
+              options={
+                Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Yes",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "No",
+                      "value": "0",
+                    },
+                  ],
+                }
+              }
+            />
+          </div>,
+        ],
+        "className": "c-label-field",
+      },
+      "ref": null,
+      "return": [Circular],
+      "selfBaseDuration": 0,
+      "sibling": null,
+      "stateNode": <div
+        class="c-label-field"
+      >
+        <label
+          for="formOne_ButtonGroupOne"
+        >
+          ButtonGroup Label
+        </label>
+        <div
+          aria-label="ButtonGroup Label"
+          class="btn-group"
+          id="formOne_ButtonGroupOne"
+          name="btnGroup"
+          role="group"
+        >
+          <button
+            class="btn"
+            type="button"
+          >
+            Yes
+          </button>
+          <button
+            class="btn"
+            type="button"
+          >
+            No
+          </button>
+        </div>
+      </div>,
+      "tag": 5,
+      "treeBaseDuration": 0,
+      "type": "div",
+      "updateQueue": null,
+    },
+    "childExpirationTime": 0,
+    "contextDependencies": null,
+    "effectTag": 1,
+    "elementType": [Function],
+    "expirationTime": 0,
+    "firstEffect": null,
+    "index": 0,
+    "key": null,
+    "lastEffect": null,
+    "memoizedProps": Object {
+      "id": "formOne_ButtonGroupOne",
+      "label": "ButtonGroup Label",
+      "name": "btnGroup",
+      "onChange": [Function],
+      "options": Object {
+        "enumOptions": Array [
+          Object {
+            "label": "Yes",
+            "value": "1",
+          },
+          Object {
+            "label": "No",
+            "value": "0",
+          },
+        ],
+      },
+    },
+    "memoizedState": null,
+    "mode": 0,
+    "nextEffect": null,
+    "pendingProps": Object {
+      "id": "formOne_ButtonGroupOne",
+      "label": "ButtonGroup Label",
+      "name": "btnGroup",
+      "onChange": [Function],
+      "options": Object {
+        "enumOptions": Array [
+          Object {
+            "label": "Yes",
+            "value": "1",
+          },
+          Object {
+            "label": "No",
+            "value": "0",
+          },
+        ],
+      },
+    },
+    "ref": null,
+    "return": FiberNode {
+      "_debugHookTypes": null,
+      "_debugID": 62,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": null,
+      "_debugSource": null,
+      "actualDuration": 0,
+      "actualStartTime": -1,
+      "alternate": null,
+      "child": [Circular],
+      "childExpirationTime": 0,
+      "contextDependencies": null,
+      "effectTag": 1,
+      "elementType": [Function],
+      "expirationTime": 0,
+      "firstEffect": null,
+      "index": 0,
+      "key": null,
+      "lastEffect": null,
+      "memoizedProps": Object {
+        "Component": [Function],
+        "context": null,
+        "props": Object {
+          "id": "formOne_ButtonGroupOne",
+          "label": "ButtonGroup Label",
+          "name": "btnGroup",
+          "onChange": [Function],
+          "options": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Yes",
+                "value": "1",
+              },
+              Object {
+                "label": "No",
+                "value": "0",
+              },
+            ],
+          },
+        },
+        "wrappingComponentProps": null,
+      },
+      "memoizedState": Object {
+        "context": null,
+        "mount": true,
+        "props": Object {
+          "id": "formOne_ButtonGroupOne",
+          "label": "ButtonGroup Label",
+          "name": "btnGroup",
+          "onChange": [Function],
+          "options": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Yes",
+                "value": "1",
+              },
+              Object {
+                "label": "No",
+                "value": "0",
+              },
+            ],
+          },
+        },
+        "wrappingComponentProps": null,
+      },
+      "mode": 0,
+      "nextEffect": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 60,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 60,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": [Circular],
+          "child": null,
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 0,
+          "elementType": null,
+          "expirationTime": 1073741823,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": null,
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": null,
+          "ref": null,
+          "return": null,
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": Object {
+            "containerInfo": <div>
+              <div
+                class="c-label-field"
+              >
+                <label
+                  for="formOne_ButtonGroupOne"
+                >
+                  ButtonGroup Label
+                </label>
+                <div
+                  aria-label="ButtonGroup Label"
+                  class="btn-group"
+                  id="formOne_ButtonGroupOne"
+                  name="btnGroup"
+                  role="group"
+                >
+                  <button
+                    class="btn"
+                    type="button"
+                  >
+                    Yes
+                  </button>
+                  <button
+                    class="btn"
+                    type="button"
+                  >
+                    No
+                  </button>
+                </div>
+              </div>
+            </div>,
+            "context": Object {},
+            "current": [Circular],
+            "didError": false,
+            "earliestPendingTime": 0,
+            "earliestSuspendedTime": 0,
+            "expirationTime": 0,
+            "finishedWork": null,
+            "firstBatch": null,
+            "hydrate": false,
+            "interactionThreadID": 15,
+            "latestPendingTime": 0,
+            "latestPingedTime": 0,
+            "latestSuspendedTime": 0,
+            "memoizedInteractions": Set {},
+            "nextExpirationTimeToWorkOn": 0,
+            "nextScheduledRoot": null,
+            "pendingChildren": null,
+            "pendingCommitExpirationTime": 0,
+            "pendingContext": null,
+            "pendingInteractionMap": Map {},
+            "pingCache": null,
+            "timeoutHandle": -1,
+          },
+          "tag": 3,
+          "treeBaseDuration": 0,
+          "type": null,
+          "updateQueue": Object {
+            "baseState": null,
+            "firstCapturedEffect": null,
+            "firstCapturedUpdate": null,
+            "firstEffect": null,
+            "firstUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_ButtonGroupOne",
+                      "label": "ButtonGroup Label",
+                      "name": "btnGroup",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Yes",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "No",
+                            "value": "0",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+            "lastCapturedEffect": null,
+            "lastCapturedUpdate": null,
+            "lastEffect": null,
+            "lastUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_ButtonGroupOne",
+                      "label": "ButtonGroup Label",
+                      "name": "btnGroup",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Yes",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "No",
+                            "value": "0",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+          },
+        },
+        "child": [Circular],
+        "childExpirationTime": 0,
+        "contextDependencies": null,
+        "effectTag": 32,
+        "elementType": null,
+        "expirationTime": 0,
+        "firstEffect": [Circular],
+        "index": 0,
+        "key": null,
+        "lastEffect": [Circular],
+        "memoizedProps": null,
+        "memoizedState": Object {
+          "element": <WrapperComponent
+            Component={[Function]}
+            context={null}
+            props={
+              Object {
+                "id": "formOne_ButtonGroupOne",
+                "label": "ButtonGroup Label",
+                "name": "btnGroup",
+                "onChange": [Function],
+                "options": Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Yes",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "No",
+                      "value": "0",
+                    },
+                  ],
+                },
+              }
+            }
+            wrappingComponentProps={null}
+          />,
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": Object {
+          "containerInfo": <div>
+            <div
+              class="c-label-field"
+            >
+              <label
+                for="formOne_ButtonGroupOne"
+              >
+                ButtonGroup Label
+              </label>
+              <div
+                aria-label="ButtonGroup Label"
+                class="btn-group"
+                id="formOne_ButtonGroupOne"
+                name="btnGroup"
+                role="group"
+              >
+                <button
+                  class="btn"
+                  type="button"
+                >
+                  Yes
+                </button>
+                <button
+                  class="btn"
+                  type="button"
+                >
+                  No
+                </button>
+              </div>
+            </div>
+          </div>,
+          "context": Object {},
+          "current": [Circular],
+          "didError": false,
+          "earliestPendingTime": 0,
+          "earliestSuspendedTime": 0,
+          "expirationTime": 0,
+          "finishedWork": null,
+          "firstBatch": null,
+          "hydrate": false,
+          "interactionThreadID": 15,
+          "latestPendingTime": 0,
+          "latestPingedTime": 0,
+          "latestSuspendedTime": 0,
+          "memoizedInteractions": Set {},
+          "nextExpirationTimeToWorkOn": 0,
+          "nextScheduledRoot": null,
+          "pendingChildren": null,
+          "pendingCommitExpirationTime": 0,
+          "pendingContext": null,
+          "pendingInteractionMap": Map {},
+          "pingCache": null,
+          "timeoutHandle": -1,
+        },
+        "tag": 3,
+        "treeBaseDuration": 0,
+        "type": null,
+        "updateQueue": Object {
+          "baseState": Object {
+            "element": <WrapperComponent
+              Component={[Function]}
+              context={null}
+              props={
+                Object {
+                  "id": "formOne_ButtonGroupOne",
+                  "label": "ButtonGroup Label",
+                  "name": "btnGroup",
+                  "onChange": [Function],
+                  "options": Object {
+                    "enumOptions": Array [
+                      Object {
+                        "label": "Yes",
+                        "value": "1",
+                      },
+                      Object {
+                        "label": "No",
+                        "value": "0",
+                      },
+                    ],
+                  },
+                }
+              }
+              wrappingComponentProps={null}
+            />,
+          },
+          "firstCapturedEffect": null,
+          "firstCapturedUpdate": null,
+          "firstEffect": null,
+          "firstUpdate": null,
+          "lastCapturedEffect": null,
+          "lastCapturedUpdate": null,
+          "lastEffect": null,
+          "lastUpdate": null,
+        },
+      },
+      "pendingProps": Object {
+        "Component": [Function],
+        "context": null,
+        "props": Object {
+          "id": "formOne_ButtonGroupOne",
+          "label": "ButtonGroup Label",
+          "name": "btnGroup",
+          "onChange": [Function],
+          "options": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Yes",
+                "value": "1",
+              },
+              Object {
+                "label": "No",
+                "value": "0",
+              },
+            ],
+          },
+        },
+        "wrappingComponentProps": null,
+      },
+      "ref": null,
+      "return": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 60,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 60,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": [Circular],
+          "child": null,
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 0,
+          "elementType": null,
+          "expirationTime": 1073741823,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": null,
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": null,
+          "ref": null,
+          "return": null,
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": Object {
+            "containerInfo": <div>
+              <div
+                class="c-label-field"
+              >
+                <label
+                  for="formOne_ButtonGroupOne"
+                >
+                  ButtonGroup Label
+                </label>
+                <div
+                  aria-label="ButtonGroup Label"
+                  class="btn-group"
+                  id="formOne_ButtonGroupOne"
+                  name="btnGroup"
+                  role="group"
+                >
+                  <button
+                    class="btn"
+                    type="button"
+                  >
+                    Yes
+                  </button>
+                  <button
+                    class="btn"
+                    type="button"
+                  >
+                    No
+                  </button>
+                </div>
+              </div>
+            </div>,
+            "context": Object {},
+            "current": [Circular],
+            "didError": false,
+            "earliestPendingTime": 0,
+            "earliestSuspendedTime": 0,
+            "expirationTime": 0,
+            "finishedWork": null,
+            "firstBatch": null,
+            "hydrate": false,
+            "interactionThreadID": 15,
+            "latestPendingTime": 0,
+            "latestPingedTime": 0,
+            "latestSuspendedTime": 0,
+            "memoizedInteractions": Set {},
+            "nextExpirationTimeToWorkOn": 0,
+            "nextScheduledRoot": null,
+            "pendingChildren": null,
+            "pendingCommitExpirationTime": 0,
+            "pendingContext": null,
+            "pendingInteractionMap": Map {},
+            "pingCache": null,
+            "timeoutHandle": -1,
+          },
+          "tag": 3,
+          "treeBaseDuration": 0,
+          "type": null,
+          "updateQueue": Object {
+            "baseState": null,
+            "firstCapturedEffect": null,
+            "firstCapturedUpdate": null,
+            "firstEffect": null,
+            "firstUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_ButtonGroupOne",
+                      "label": "ButtonGroup Label",
+                      "name": "btnGroup",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Yes",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "No",
+                            "value": "0",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+            "lastCapturedEffect": null,
+            "lastCapturedUpdate": null,
+            "lastEffect": null,
+            "lastUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_ButtonGroupOne",
+                      "label": "ButtonGroup Label",
+                      "name": "btnGroup",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Yes",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "No",
+                            "value": "0",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+          },
+        },
+        "child": [Circular],
+        "childExpirationTime": 0,
+        "contextDependencies": null,
+        "effectTag": 32,
+        "elementType": null,
+        "expirationTime": 0,
+        "firstEffect": [Circular],
+        "index": 0,
+        "key": null,
+        "lastEffect": [Circular],
+        "memoizedProps": null,
+        "memoizedState": Object {
+          "element": <WrapperComponent
+            Component={[Function]}
+            context={null}
+            props={
+              Object {
+                "id": "formOne_ButtonGroupOne",
+                "label": "ButtonGroup Label",
+                "name": "btnGroup",
+                "onChange": [Function],
+                "options": Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Yes",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "No",
+                      "value": "0",
+                    },
+                  ],
+                },
+              }
+            }
+            wrappingComponentProps={null}
+          />,
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": Object {
+          "containerInfo": <div>
+            <div
+              class="c-label-field"
+            >
+              <label
+                for="formOne_ButtonGroupOne"
+              >
+                ButtonGroup Label
+              </label>
+              <div
+                aria-label="ButtonGroup Label"
+                class="btn-group"
+                id="formOne_ButtonGroupOne"
+                name="btnGroup"
+                role="group"
+              >
+                <button
+                  class="btn"
+                  type="button"
+                >
+                  Yes
+                </button>
+                <button
+                  class="btn"
+                  type="button"
+                >
+                  No
+                </button>
+              </div>
+            </div>
+          </div>,
+          "context": Object {},
+          "current": [Circular],
+          "didError": false,
+          "earliestPendingTime": 0,
+          "earliestSuspendedTime": 0,
+          "expirationTime": 0,
+          "finishedWork": null,
+          "firstBatch": null,
+          "hydrate": false,
+          "interactionThreadID": 15,
+          "latestPendingTime": 0,
+          "latestPingedTime": 0,
+          "latestSuspendedTime": 0,
+          "memoizedInteractions": Set {},
+          "nextExpirationTimeToWorkOn": 0,
+          "nextScheduledRoot": null,
+          "pendingChildren": null,
+          "pendingCommitExpirationTime": 0,
+          "pendingContext": null,
+          "pendingInteractionMap": Map {},
+          "pingCache": null,
+          "timeoutHandle": -1,
+        },
+        "tag": 3,
+        "treeBaseDuration": 0,
+        "type": null,
+        "updateQueue": Object {
+          "baseState": Object {
+            "element": <WrapperComponent
+              Component={[Function]}
+              context={null}
+              props={
+                Object {
+                  "id": "formOne_ButtonGroupOne",
+                  "label": "ButtonGroup Label",
+                  "name": "btnGroup",
+                  "onChange": [Function],
+                  "options": Object {
+                    "enumOptions": Array [
+                      Object {
+                        "label": "Yes",
+                        "value": "1",
+                      },
+                      Object {
+                        "label": "No",
+                        "value": "0",
+                      },
+                    ],
+                  },
+                }
+              }
+              wrappingComponentProps={null}
+            />,
+          },
+          "firstCapturedEffect": null,
+          "firstCapturedUpdate": null,
+          "firstEffect": null,
+          "firstUpdate": null,
+          "lastCapturedEffect": null,
+          "lastCapturedUpdate": null,
+          "lastEffect": null,
+          "lastUpdate": null,
+        },
+      },
+      "selfBaseDuration": 0,
+      "sibling": null,
+      "stateNode": WrapperComponent {
+        "_reactInternalFiber": [Circular],
+        "_reactInternalInstance": Object {},
+        "context": Object {},
+        "props": Object {
+          "Component": [Function],
+          "context": null,
+          "props": Object {
+            "id": "formOne_ButtonGroupOne",
+            "label": "ButtonGroup Label",
+            "name": "btnGroup",
+            "onChange": [Function],
+            "options": Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Yes",
+                  "value": "1",
+                },
+                Object {
+                  "label": "No",
+                  "value": "0",
+                },
+              ],
+            },
+          },
+          "wrappingComponentProps": null,
+        },
+        "refs": Object {},
+        "rootFinderInstance": null,
+        "state": Object {
+          "context": null,
+          "mount": true,
+          "props": Object {
+            "id": "formOne_ButtonGroupOne",
+            "label": "ButtonGroup Label",
+            "name": "btnGroup",
+            "onChange": [Function],
+            "options": Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Yes",
+                  "value": "1",
+                },
+                Object {
+                  "label": "No",
+                  "value": "0",
+                },
+              ],
+            },
+          },
+          "wrappingComponentProps": null,
+        },
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "tag": 1,
+      "treeBaseDuration": 0,
+      "type": [Function],
+      "updateQueue": null,
+    },
+    "selfBaseDuration": 0,
+    "sibling": null,
+    "stateNode": [Circular],
+    "tag": 1,
+    "treeBaseDuration": 0,
+    "type": [Function],
+    "updateQueue": null,
+  },
+  "_reactInternalInstance": Object {},
+  "context": Object {},
+  "props": Object {
+    "id": "formOne_ButtonGroupOne",
+    "label": "ButtonGroup Label",
+    "name": "btnGroup",
+    "onChange": [Function],
+    "options": Object {
+      "enumOptions": Array [
+        Object {
+          "label": "Yes",
+          "value": "1",
+        },
+        Object {
+          "label": "No",
+          "value": "0",
+        },
+      ],
+    },
+  },
+  "refs": Object {},
+  "state": null,
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
+
+exports[`ButtonGroup render_ButtonGroup 1`] = `
+ButtonGroup {
+  "context": Object {},
+  "props": Object {
+    "id": "formOne_ButtonGroupOne",
+    "label": "ButtonGroup Label",
+    "name": "btnGroup",
+    "onChange": [Function],
+    "options": Object {
+      "enumOptions": Array [
+        Object {
+          "label": "Yes",
+          "value": "1",
+        },
+        Object {
+          "label": "No",
+          "value": "0",
+        },
+      ],
+    },
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <ButtonGroup
+        id="formOne_ButtonGroupOne"
+        label="ButtonGroup Label"
+        name="btnGroup"
+        onChange={[Function]}
+        options={
+          Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Yes",
+                "value": "1",
+              },
+              Object {
+                "label": "No",
+                "value": "0",
+              },
+            ],
+          }
+        }
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <div
+        className="c-label-field"
+      >
+        <Label
+          for="formOne_ButtonGroupOne"
+          id="formOne_ButtonGroupOne"
+          label="ButtonGroup Label"
+          name="btnGroup"
+          onChange={[Function]}
+          options={
+            Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Yes",
+                  "value": "1",
+                },
+                Object {
+                  "label": "No",
+                  "value": "0",
+                },
+              ],
+            }
+          }
+        />
+        <div
+          aria-label="ButtonGroup Label"
+          className="btn-group"
+          id="formOne_ButtonGroupOne"
+          name="btnGroup"
+          role="group"
+        >
+          <ButtonItem
+            enumOptions={
+              Array [
+                Object {
+                  "label": "Yes",
+                  "value": "1",
+                },
+                Object {
+                  "label": "No",
+                  "value": "0",
+                },
+              ]
+            }
+            id="formOne_ButtonGroupOne"
+            index={0}
+            label="ButtonGroup Label"
+            name="btnGroup"
+            onChange={[Function]}
+            option={
+              Object {
+                "label": "Yes",
+                "value": "1",
+              }
+            }
+            options={
+              Object {
+                "enumOptions": Array [
+                  Object {
+                    "label": "Yes",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "No",
+                    "value": "0",
+                  },
+                ],
+              }
+            }
+          />
+          <ButtonItem
+            enumOptions={
+              Array [
+                Object {
+                  "label": "Yes",
+                  "value": "1",
+                },
+                Object {
+                  "label": "No",
+                  "value": "0",
+                },
+              ]
+            }
+            id="formOne_ButtonGroupOne"
+            index={1}
+            label="ButtonGroup Label"
+            name="btnGroup"
+            onChange={[Function]}
+            option={
+              Object {
+                "label": "No",
+                "value": "0",
+              }
+            }
+            options={
+              Object {
+                "enumOptions": Array [
+                  Object {
+                    "label": "Yes",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "No",
+                    "value": "0",
+                  },
+                ],
+              }
+            }
+          />
+        </div>
+      </div>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

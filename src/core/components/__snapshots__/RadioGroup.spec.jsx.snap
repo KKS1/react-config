@@ -1,0 +1,3221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioGroup click_RadioGroup_should_call_onChange_with_selectedValue 1`] = `
+RadioGroup {
+  "_reactInternalFiber": FiberNode {
+    "_debugHookTypes": null,
+    "_debugID": 63,
+    "_debugIsCurrentlyTiming": false,
+    "_debugOwner": FiberNode {
+      "_debugHookTypes": null,
+      "_debugID": 62,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": null,
+      "_debugSource": null,
+      "actualDuration": 0,
+      "actualStartTime": -1,
+      "alternate": null,
+      "child": [Circular],
+      "childExpirationTime": 0,
+      "contextDependencies": null,
+      "effectTag": 1,
+      "elementType": [Function],
+      "expirationTime": 0,
+      "firstEffect": null,
+      "index": 0,
+      "key": null,
+      "lastEffect": null,
+      "memoizedProps": Object {
+        "Component": [Function],
+        "context": null,
+        "props": Object {
+          "id": "formOne_RadioGroupOne",
+          "label": "RadioGroup Label",
+          "onChange": [Function],
+          "options": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Purchase",
+                "value": "1",
+              },
+              Object {
+                "label": "Other",
+                "value": "2",
+              },
+            ],
+          },
+        },
+        "wrappingComponentProps": null,
+      },
+      "memoizedState": Object {
+        "context": null,
+        "mount": true,
+        "props": Object {
+          "id": "formOne_RadioGroupOne",
+          "label": "RadioGroup Label",
+          "onChange": [Function],
+          "options": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Purchase",
+                "value": "1",
+              },
+              Object {
+                "label": "Other",
+                "value": "2",
+              },
+            ],
+          },
+        },
+        "wrappingComponentProps": null,
+      },
+      "mode": 0,
+      "nextEffect": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 60,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 60,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": [Circular],
+          "child": null,
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 0,
+          "elementType": null,
+          "expirationTime": 1073741823,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": null,
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": null,
+          "ref": null,
+          "return": null,
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": Object {
+            "containerInfo": <div>
+              <label
+                for="formOne_RadioGroupOne"
+              >
+                RadioGroup Label
+              </label>
+              <fieldset
+                class="js-multi-select c-multi-select row c-multi-select--condensed"
+                id="formOne_RadioGroupOne"
+                role="list"
+              >
+                <div
+                  class="col-12 col-md-10"
+                  for="formOne_RadioGroupOne_0"
+                  role="listitem"
+                >
+                  <label
+                    class="js-multi-select__option c-multi-select__option c-radio"
+                  >
+                    <input
+                      class="c-radio__input"
+                      id="formOne_RadioGroupOne_0"
+                      name="formOne_RadioGroupOne[0]"
+                      type="radio"
+                      value="1"
+                    />
+                    <i
+                      class="c-radio__icon"
+                    />
+                    <span
+                      class="c-radio__label"
+                    >
+                      Purchase
+                    </span>
+                  </label>
+                </div>
+                <div
+                  class="col-12 col-md-10"
+                  for="formOne_RadioGroupOne_1"
+                  role="listitem"
+                >
+                  <label
+                    class="js-multi-select__option c-multi-select__option c-radio"
+                  >
+                    <input
+                      class="c-radio__input"
+                      id="formOne_RadioGroupOne_1"
+                      name="formOne_RadioGroupOne[0]"
+                      type="radio"
+                      value="2"
+                    />
+                    <i
+                      class="c-radio__icon"
+                    />
+                    <span
+                      class="c-radio__label"
+                    >
+                      Other
+                    </span>
+                  </label>
+                </div>
+              </fieldset>
+            </div>,
+            "context": Object {},
+            "current": [Circular],
+            "didError": false,
+            "earliestPendingTime": 0,
+            "earliestSuspendedTime": 0,
+            "expirationTime": 0,
+            "finishedWork": null,
+            "firstBatch": null,
+            "hydrate": false,
+            "interactionThreadID": 15,
+            "latestPendingTime": 0,
+            "latestPingedTime": 0,
+            "latestSuspendedTime": 0,
+            "memoizedInteractions": Set {},
+            "nextExpirationTimeToWorkOn": 0,
+            "nextScheduledRoot": null,
+            "pendingChildren": null,
+            "pendingCommitExpirationTime": 0,
+            "pendingContext": null,
+            "pendingInteractionMap": Map {},
+            "pingCache": null,
+            "timeoutHandle": -1,
+          },
+          "tag": 3,
+          "treeBaseDuration": 0,
+          "type": null,
+          "updateQueue": Object {
+            "baseState": null,
+            "firstCapturedEffect": null,
+            "firstCapturedUpdate": null,
+            "firstEffect": null,
+            "firstUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_RadioGroupOne",
+                      "label": "RadioGroup Label",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Purchase",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "Other",
+                            "value": "2",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+            "lastCapturedEffect": null,
+            "lastCapturedUpdate": null,
+            "lastEffect": null,
+            "lastUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_RadioGroupOne",
+                      "label": "RadioGroup Label",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Purchase",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "Other",
+                            "value": "2",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+          },
+        },
+        "child": [Circular],
+        "childExpirationTime": 0,
+        "contextDependencies": null,
+        "effectTag": 32,
+        "elementType": null,
+        "expirationTime": 0,
+        "firstEffect": [Circular],
+        "index": 0,
+        "key": null,
+        "lastEffect": [Circular],
+        "memoizedProps": null,
+        "memoizedState": Object {
+          "element": <WrapperComponent
+            Component={[Function]}
+            context={null}
+            props={
+              Object {
+                "id": "formOne_RadioGroupOne",
+                "label": "RadioGroup Label",
+                "onChange": [Function],
+                "options": Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Purchase",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "Other",
+                      "value": "2",
+                    },
+                  ],
+                },
+              }
+            }
+            wrappingComponentProps={null}
+          />,
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": Object {
+          "containerInfo": <div>
+            <label
+              for="formOne_RadioGroupOne"
+            >
+              RadioGroup Label
+            </label>
+            <fieldset
+              class="js-multi-select c-multi-select row c-multi-select--condensed"
+              id="formOne_RadioGroupOne"
+              role="list"
+            >
+              <div
+                class="col-12 col-md-10"
+                for="formOne_RadioGroupOne_0"
+                role="listitem"
+              >
+                <label
+                  class="js-multi-select__option c-multi-select__option c-radio"
+                >
+                  <input
+                    class="c-radio__input"
+                    id="formOne_RadioGroupOne_0"
+                    name="formOne_RadioGroupOne[0]"
+                    type="radio"
+                    value="1"
+                  />
+                  <i
+                    class="c-radio__icon"
+                  />
+                  <span
+                    class="c-radio__label"
+                  >
+                    Purchase
+                  </span>
+                </label>
+              </div>
+              <div
+                class="col-12 col-md-10"
+                for="formOne_RadioGroupOne_1"
+                role="listitem"
+              >
+                <label
+                  class="js-multi-select__option c-multi-select__option c-radio"
+                >
+                  <input
+                    class="c-radio__input"
+                    id="formOne_RadioGroupOne_1"
+                    name="formOne_RadioGroupOne[0]"
+                    type="radio"
+                    value="2"
+                  />
+                  <i
+                    class="c-radio__icon"
+                  />
+                  <span
+                    class="c-radio__label"
+                  >
+                    Other
+                  </span>
+                </label>
+              </div>
+            </fieldset>
+          </div>,
+          "context": Object {},
+          "current": [Circular],
+          "didError": false,
+          "earliestPendingTime": 0,
+          "earliestSuspendedTime": 0,
+          "expirationTime": 0,
+          "finishedWork": null,
+          "firstBatch": null,
+          "hydrate": false,
+          "interactionThreadID": 15,
+          "latestPendingTime": 0,
+          "latestPingedTime": 0,
+          "latestSuspendedTime": 0,
+          "memoizedInteractions": Set {},
+          "nextExpirationTimeToWorkOn": 0,
+          "nextScheduledRoot": null,
+          "pendingChildren": null,
+          "pendingCommitExpirationTime": 0,
+          "pendingContext": null,
+          "pendingInteractionMap": Map {},
+          "pingCache": null,
+          "timeoutHandle": -1,
+        },
+        "tag": 3,
+        "treeBaseDuration": 0,
+        "type": null,
+        "updateQueue": Object {
+          "baseState": Object {
+            "element": <WrapperComponent
+              Component={[Function]}
+              context={null}
+              props={
+                Object {
+                  "id": "formOne_RadioGroupOne",
+                  "label": "RadioGroup Label",
+                  "onChange": [Function],
+                  "options": Object {
+                    "enumOptions": Array [
+                      Object {
+                        "label": "Purchase",
+                        "value": "1",
+                      },
+                      Object {
+                        "label": "Other",
+                        "value": "2",
+                      },
+                    ],
+                  },
+                }
+              }
+              wrappingComponentProps={null}
+            />,
+          },
+          "firstCapturedEffect": null,
+          "firstCapturedUpdate": null,
+          "firstEffect": null,
+          "firstUpdate": null,
+          "lastCapturedEffect": null,
+          "lastCapturedUpdate": null,
+          "lastEffect": null,
+          "lastUpdate": null,
+        },
+      },
+      "pendingProps": Object {
+        "Component": [Function],
+        "context": null,
+        "props": Object {
+          "id": "formOne_RadioGroupOne",
+          "label": "RadioGroup Label",
+          "onChange": [Function],
+          "options": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Purchase",
+                "value": "1",
+              },
+              Object {
+                "label": "Other",
+                "value": "2",
+              },
+            ],
+          },
+        },
+        "wrappingComponentProps": null,
+      },
+      "ref": null,
+      "return": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 60,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 60,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": [Circular],
+          "child": null,
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 0,
+          "elementType": null,
+          "expirationTime": 1073741823,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": null,
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": null,
+          "ref": null,
+          "return": null,
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": Object {
+            "containerInfo": <div>
+              <label
+                for="formOne_RadioGroupOne"
+              >
+                RadioGroup Label
+              </label>
+              <fieldset
+                class="js-multi-select c-multi-select row c-multi-select--condensed"
+                id="formOne_RadioGroupOne"
+                role="list"
+              >
+                <div
+                  class="col-12 col-md-10"
+                  for="formOne_RadioGroupOne_0"
+                  role="listitem"
+                >
+                  <label
+                    class="js-multi-select__option c-multi-select__option c-radio"
+                  >
+                    <input
+                      class="c-radio__input"
+                      id="formOne_RadioGroupOne_0"
+                      name="formOne_RadioGroupOne[0]"
+                      type="radio"
+                      value="1"
+                    />
+                    <i
+                      class="c-radio__icon"
+                    />
+                    <span
+                      class="c-radio__label"
+                    >
+                      Purchase
+                    </span>
+                  </label>
+                </div>
+                <div
+                  class="col-12 col-md-10"
+                  for="formOne_RadioGroupOne_1"
+                  role="listitem"
+                >
+                  <label
+                    class="js-multi-select__option c-multi-select__option c-radio"
+                  >
+                    <input
+                      class="c-radio__input"
+                      id="formOne_RadioGroupOne_1"
+                      name="formOne_RadioGroupOne[0]"
+                      type="radio"
+                      value="2"
+                    />
+                    <i
+                      class="c-radio__icon"
+                    />
+                    <span
+                      class="c-radio__label"
+                    >
+                      Other
+                    </span>
+                  </label>
+                </div>
+              </fieldset>
+            </div>,
+            "context": Object {},
+            "current": [Circular],
+            "didError": false,
+            "earliestPendingTime": 0,
+            "earliestSuspendedTime": 0,
+            "expirationTime": 0,
+            "finishedWork": null,
+            "firstBatch": null,
+            "hydrate": false,
+            "interactionThreadID": 15,
+            "latestPendingTime": 0,
+            "latestPingedTime": 0,
+            "latestSuspendedTime": 0,
+            "memoizedInteractions": Set {},
+            "nextExpirationTimeToWorkOn": 0,
+            "nextScheduledRoot": null,
+            "pendingChildren": null,
+            "pendingCommitExpirationTime": 0,
+            "pendingContext": null,
+            "pendingInteractionMap": Map {},
+            "pingCache": null,
+            "timeoutHandle": -1,
+          },
+          "tag": 3,
+          "treeBaseDuration": 0,
+          "type": null,
+          "updateQueue": Object {
+            "baseState": null,
+            "firstCapturedEffect": null,
+            "firstCapturedUpdate": null,
+            "firstEffect": null,
+            "firstUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_RadioGroupOne",
+                      "label": "RadioGroup Label",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Purchase",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "Other",
+                            "value": "2",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+            "lastCapturedEffect": null,
+            "lastCapturedUpdate": null,
+            "lastEffect": null,
+            "lastUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_RadioGroupOne",
+                      "label": "RadioGroup Label",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Purchase",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "Other",
+                            "value": "2",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+          },
+        },
+        "child": [Circular],
+        "childExpirationTime": 0,
+        "contextDependencies": null,
+        "effectTag": 32,
+        "elementType": null,
+        "expirationTime": 0,
+        "firstEffect": [Circular],
+        "index": 0,
+        "key": null,
+        "lastEffect": [Circular],
+        "memoizedProps": null,
+        "memoizedState": Object {
+          "element": <WrapperComponent
+            Component={[Function]}
+            context={null}
+            props={
+              Object {
+                "id": "formOne_RadioGroupOne",
+                "label": "RadioGroup Label",
+                "onChange": [Function],
+                "options": Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Purchase",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "Other",
+                      "value": "2",
+                    },
+                  ],
+                },
+              }
+            }
+            wrappingComponentProps={null}
+          />,
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": Object {
+          "containerInfo": <div>
+            <label
+              for="formOne_RadioGroupOne"
+            >
+              RadioGroup Label
+            </label>
+            <fieldset
+              class="js-multi-select c-multi-select row c-multi-select--condensed"
+              id="formOne_RadioGroupOne"
+              role="list"
+            >
+              <div
+                class="col-12 col-md-10"
+                for="formOne_RadioGroupOne_0"
+                role="listitem"
+              >
+                <label
+                  class="js-multi-select__option c-multi-select__option c-radio"
+                >
+                  <input
+                    class="c-radio__input"
+                    id="formOne_RadioGroupOne_0"
+                    name="formOne_RadioGroupOne[0]"
+                    type="radio"
+                    value="1"
+                  />
+                  <i
+                    class="c-radio__icon"
+                  />
+                  <span
+                    class="c-radio__label"
+                  >
+                    Purchase
+                  </span>
+                </label>
+              </div>
+              <div
+                class="col-12 col-md-10"
+                for="formOne_RadioGroupOne_1"
+                role="listitem"
+              >
+                <label
+                  class="js-multi-select__option c-multi-select__option c-radio"
+                >
+                  <input
+                    class="c-radio__input"
+                    id="formOne_RadioGroupOne_1"
+                    name="formOne_RadioGroupOne[0]"
+                    type="radio"
+                    value="2"
+                  />
+                  <i
+                    class="c-radio__icon"
+                  />
+                  <span
+                    class="c-radio__label"
+                  >
+                    Other
+                  </span>
+                </label>
+              </div>
+            </fieldset>
+          </div>,
+          "context": Object {},
+          "current": [Circular],
+          "didError": false,
+          "earliestPendingTime": 0,
+          "earliestSuspendedTime": 0,
+          "expirationTime": 0,
+          "finishedWork": null,
+          "firstBatch": null,
+          "hydrate": false,
+          "interactionThreadID": 15,
+          "latestPendingTime": 0,
+          "latestPingedTime": 0,
+          "latestSuspendedTime": 0,
+          "memoizedInteractions": Set {},
+          "nextExpirationTimeToWorkOn": 0,
+          "nextScheduledRoot": null,
+          "pendingChildren": null,
+          "pendingCommitExpirationTime": 0,
+          "pendingContext": null,
+          "pendingInteractionMap": Map {},
+          "pingCache": null,
+          "timeoutHandle": -1,
+        },
+        "tag": 3,
+        "treeBaseDuration": 0,
+        "type": null,
+        "updateQueue": Object {
+          "baseState": Object {
+            "element": <WrapperComponent
+              Component={[Function]}
+              context={null}
+              props={
+                Object {
+                  "id": "formOne_RadioGroupOne",
+                  "label": "RadioGroup Label",
+                  "onChange": [Function],
+                  "options": Object {
+                    "enumOptions": Array [
+                      Object {
+                        "label": "Purchase",
+                        "value": "1",
+                      },
+                      Object {
+                        "label": "Other",
+                        "value": "2",
+                      },
+                    ],
+                  },
+                }
+              }
+              wrappingComponentProps={null}
+            />,
+          },
+          "firstCapturedEffect": null,
+          "firstCapturedUpdate": null,
+          "firstEffect": null,
+          "firstUpdate": null,
+          "lastCapturedEffect": null,
+          "lastCapturedUpdate": null,
+          "lastEffect": null,
+          "lastUpdate": null,
+        },
+      },
+      "selfBaseDuration": 0,
+      "sibling": null,
+      "stateNode": WrapperComponent {
+        "_reactInternalFiber": [Circular],
+        "_reactInternalInstance": Object {},
+        "context": Object {},
+        "props": Object {
+          "Component": [Function],
+          "context": null,
+          "props": Object {
+            "id": "formOne_RadioGroupOne",
+            "label": "RadioGroup Label",
+            "onChange": [Function],
+            "options": Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Purchase",
+                  "value": "1",
+                },
+                Object {
+                  "label": "Other",
+                  "value": "2",
+                },
+              ],
+            },
+          },
+          "wrappingComponentProps": null,
+        },
+        "refs": Object {},
+        "rootFinderInstance": null,
+        "state": Object {
+          "context": null,
+          "mount": true,
+          "props": Object {
+            "id": "formOne_RadioGroupOne",
+            "label": "RadioGroup Label",
+            "onChange": [Function],
+            "options": Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Purchase",
+                  "value": "1",
+                },
+                Object {
+                  "label": "Other",
+                  "value": "2",
+                },
+              ],
+            },
+          },
+          "wrappingComponentProps": null,
+        },
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "tag": 1,
+      "treeBaseDuration": 0,
+      "type": [Function],
+      "updateQueue": null,
+    },
+    "_debugSource": null,
+    "actualDuration": 0,
+    "actualStartTime": -1,
+    "alternate": null,
+    "child": FiberNode {
+      "_debugHookTypes": null,
+      "_debugID": 64,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": [Circular],
+      "_debugSource": null,
+      "actualDuration": 0,
+      "actualStartTime": -1,
+      "alternate": null,
+      "child": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 66,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": [Circular],
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": null,
+        "child": null,
+        "childExpirationTime": 0,
+        "contextDependencies": null,
+        "effectTag": 0,
+        "elementType": "label",
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "children": "RadioGroup Label",
+          "htmlFor": "formOne_RadioGroupOne",
+        },
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "children": "RadioGroup Label",
+          "htmlFor": "formOne_RadioGroupOne",
+        },
+        "ref": null,
+        "return": [Circular],
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": <label
+          for="formOne_RadioGroupOne"
+        >
+          RadioGroup Label
+        </label>,
+        "tag": 5,
+        "treeBaseDuration": 0,
+        "type": "label",
+        "updateQueue": null,
+      },
+      "childExpirationTime": 0,
+      "contextDependencies": null,
+      "effectTag": 1,
+      "elementType": [Function],
+      "expirationTime": 0,
+      "firstEffect": null,
+      "index": 0,
+      "key": null,
+      "lastEffect": null,
+      "memoizedProps": Object {
+        "id": "formOne_RadioGroupOne",
+        "label": "RadioGroup Label",
+        "onChange": [Function],
+        "options": Object {
+          "enumOptions": Array [
+            Object {
+              "label": "Purchase",
+              "value": "1",
+            },
+            Object {
+              "label": "Other",
+              "value": "2",
+            },
+          ],
+        },
+      },
+      "memoizedState": null,
+      "mode": 0,
+      "nextEffect": null,
+      "pendingProps": Object {
+        "id": "formOne_RadioGroupOne",
+        "label": "RadioGroup Label",
+        "onChange": [Function],
+        "options": Object {
+          "enumOptions": Array [
+            Object {
+              "label": "Purchase",
+              "value": "1",
+            },
+            Object {
+              "label": "Other",
+              "value": "2",
+            },
+          ],
+        },
+      },
+      "ref": null,
+      "return": [Circular],
+      "selfBaseDuration": 0,
+      "sibling": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 65,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": [Circular],
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": null,
+        "child": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 67,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 69,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 70,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 71,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "input",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "checked": false,
+                  "className": "c-radio__input",
+                  "id": "formOne_RadioGroupOne_0",
+                  "name": "formOne_RadioGroupOne[0]",
+                  "onChange": [Function],
+                  "type": "radio",
+                  "value": "1",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "checked": false,
+                  "className": "c-radio__input",
+                  "id": "formOne_RadioGroupOne_0",
+                  "name": "formOne_RadioGroupOne[0]",
+                  "onChange": [Function],
+                  "type": "radio",
+                  "value": "1",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugHookTypes": null,
+                  "_debugID": 72,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "i",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "className": "c-radio__icon",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "className": "c-radio__icon",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 73,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "contextDependencies": null,
+                    "effectTag": 0,
+                    "elementType": "span",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 2,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Purchase",
+                      "className": "c-radio__label",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Purchase",
+                      "className": "c-radio__label",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <span
+                      class="c-radio__label"
+                    >
+                      Purchase
+                    </span>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "span",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <i
+                    class="c-radio__icon"
+                  />,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "i",
+                  "updateQueue": null,
+                },
+                "stateNode": <input
+                  class="c-radio__input"
+                  id="formOne_RadioGroupOne_0"
+                  name="formOne_RadioGroupOne[0]"
+                  type="radio"
+                  value="1"
+                />,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "input",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": "label",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <input
+                    checked={false}
+                    className="c-radio__input"
+                    id="formOne_RadioGroupOne_0"
+                    name="formOne_RadioGroupOne[0]"
+                    onChange={[Function]}
+                    type="radio"
+                    value="1"
+                  />,
+                  <i
+                    className="c-radio__icon"
+                  />,
+                  <span
+                    className="c-radio__label"
+                  >
+                    Purchase
+                  </span>,
+                ],
+                "className": "js-multi-select__option c-multi-select__option c-radio",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": Array [
+                  <input
+                    checked={false}
+                    className="c-radio__input"
+                    id="formOne_RadioGroupOne_0"
+                    name="formOne_RadioGroupOne[0]"
+                    onChange={[Function]}
+                    type="radio"
+                    value="1"
+                  />,
+                  <i
+                    className="c-radio__icon"
+                  />,
+                  <span
+                    className="c-radio__label"
+                  >
+                    Purchase
+                  </span>,
+                ],
+                "className": "js-multi-select__option c-multi-select__option c-radio",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <label
+                class="js-multi-select__option c-multi-select__option c-radio"
+              >
+                <input
+                  class="c-radio__input"
+                  id="formOne_RadioGroupOne_0"
+                  name="formOne_RadioGroupOne[0]"
+                  type="radio"
+                  value="1"
+                />
+                <i
+                  class="c-radio__icon"
+                />
+                <span
+                  class="c-radio__label"
+                >
+                  Purchase
+                </span>
+              </label>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "label",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 0,
+            "elementType": "div",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": <label
+                className="js-multi-select__option c-multi-select__option c-radio"
+              >
+                <input
+                  checked={false}
+                  className="c-radio__input"
+                  id="formOne_RadioGroupOne_0"
+                  name="formOne_RadioGroupOne[0]"
+                  onChange={[Function]}
+                  type="radio"
+                  value="1"
+                />
+                <i
+                  className="c-radio__icon"
+                />
+                <span
+                  className="c-radio__label"
+                >
+                  Purchase
+                </span>
+              </label>,
+              "className": "col-12 col-md-10",
+              "htmlFor": "formOne_RadioGroupOne_0",
+              "role": "listitem",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": <label
+                className="js-multi-select__option c-multi-select__option c-radio"
+              >
+                <input
+                  checked={false}
+                  className="c-radio__input"
+                  id="formOne_RadioGroupOne_0"
+                  name="formOne_RadioGroupOne[0]"
+                  onChange={[Function]}
+                  type="radio"
+                  value="1"
+                />
+                <i
+                  className="c-radio__icon"
+                />
+                <span
+                  className="c-radio__label"
+                >
+                  Purchase
+                </span>
+              </label>,
+              "className": "col-12 col-md-10",
+              "htmlFor": "formOne_RadioGroupOne_0",
+              "role": "listitem",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <div
+              class="col-12 col-md-10"
+              for="formOne_RadioGroupOne_0"
+              role="listitem"
+            >
+              <label
+                class="js-multi-select__option c-multi-select__option c-radio"
+              >
+                <input
+                  class="c-radio__input"
+                  id="formOne_RadioGroupOne_0"
+                  name="formOne_RadioGroupOne[0]"
+                  type="radio"
+                  value="1"
+                />
+                <i
+                  class="c-radio__icon"
+                />
+                <span
+                  class="c-radio__label"
+                >
+                  Purchase
+                </span>
+              </label>
+            </div>,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 1,
+          "elementType": [Function],
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": "0",
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Purchase",
+                "value": "1",
+              },
+              Object {
+                "label": "Other",
+                "value": "2",
+              },
+            ],
+            "id": "formOne_RadioGroupOne",
+            "index": 0,
+            "label": "RadioGroup Label",
+            "onChange": [Function],
+            "option": Object {
+              "label": "Purchase",
+              "value": "1",
+            },
+            "options": Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Purchase",
+                  "value": "1",
+                },
+                Object {
+                  "label": "Other",
+                  "value": "2",
+                },
+              ],
+            },
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Purchase",
+                "value": "1",
+              },
+              Object {
+                "label": "Other",
+                "value": "2",
+              },
+            ],
+            "id": "formOne_RadioGroupOne",
+            "index": 0,
+            "label": "RadioGroup Label",
+            "onChange": [Function],
+            "option": Object {
+              "label": "Purchase",
+              "value": "1",
+            },
+            "options": Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Purchase",
+                  "value": "1",
+                },
+                Object {
+                  "label": "Other",
+                  "value": "2",
+                },
+              ],
+            },
+          },
+          "ref": null,
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 68,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 74,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 75,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugHookTypes": null,
+                  "_debugID": 76,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "input",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "checked": false,
+                    "className": "c-radio__input",
+                    "id": "formOne_RadioGroupOne_1",
+                    "name": "formOne_RadioGroupOne[0]",
+                    "onChange": [Function],
+                    "type": "radio",
+                    "value": "2",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "checked": false,
+                    "className": "c-radio__input",
+                    "id": "formOne_RadioGroupOne_1",
+                    "name": "formOne_RadioGroupOne[0]",
+                    "onChange": [Function],
+                    "type": "radio",
+                    "value": "2",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 77,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "contextDependencies": null,
+                    "effectTag": 0,
+                    "elementType": "i",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "className": "c-radio__icon",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "className": "c-radio__icon",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugHookTypes": null,
+                      "_debugID": 78,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "contextDependencies": null,
+                      "effectTag": 0,
+                      "elementType": "span",
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 2,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Other",
+                        "className": "c-radio__label",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Other",
+                        "className": "c-radio__label",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <span
+                        class="c-radio__label"
+                      >
+                        Other
+                      </span>,
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": "span",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <i
+                      class="c-radio__icon"
+                    />,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "i",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <input
+                    class="c-radio__input"
+                    id="formOne_RadioGroupOne_1"
+                    name="formOne_RadioGroupOne[0]"
+                    type="radio"
+                    value="2"
+                  />,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "input",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "label",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      className="c-radio__input"
+                      id="formOne_RadioGroupOne_1"
+                      name="formOne_RadioGroupOne[0]"
+                      onChange={[Function]}
+                      type="radio"
+                      value="2"
+                    />,
+                    <i
+                      className="c-radio__icon"
+                    />,
+                    <span
+                      className="c-radio__label"
+                    >
+                      Other
+                    </span>,
+                  ],
+                  "className": "js-multi-select__option c-multi-select__option c-radio",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      className="c-radio__input"
+                      id="formOne_RadioGroupOne_1"
+                      name="formOne_RadioGroupOne[0]"
+                      onChange={[Function]}
+                      type="radio"
+                      value="2"
+                    />,
+                    <i
+                      className="c-radio__icon"
+                    />,
+                    <span
+                      className="c-radio__label"
+                    >
+                      Other
+                    </span>,
+                  ],
+                  "className": "js-multi-select__option c-multi-select__option c-radio",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <label
+                  class="js-multi-select__option c-multi-select__option c-radio"
+                >
+                  <input
+                    class="c-radio__input"
+                    id="formOne_RadioGroupOne_1"
+                    name="formOne_RadioGroupOne[0]"
+                    type="radio"
+                    value="2"
+                  />
+                  <i
+                    class="c-radio__icon"
+                  />
+                  <span
+                    class="c-radio__label"
+                  >
+                    Other
+                  </span>
+                </label>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "label",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": "div",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": <label
+                  className="js-multi-select__option c-multi-select__option c-radio"
+                >
+                  <input
+                    checked={false}
+                    className="c-radio__input"
+                    id="formOne_RadioGroupOne_1"
+                    name="formOne_RadioGroupOne[0]"
+                    onChange={[Function]}
+                    type="radio"
+                    value="2"
+                  />
+                  <i
+                    className="c-radio__icon"
+                  />
+                  <span
+                    className="c-radio__label"
+                  >
+                    Other
+                  </span>
+                </label>,
+                "className": "col-12 col-md-10",
+                "htmlFor": "formOne_RadioGroupOne_1",
+                "role": "listitem",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": <label
+                  className="js-multi-select__option c-multi-select__option c-radio"
+                >
+                  <input
+                    checked={false}
+                    className="c-radio__input"
+                    id="formOne_RadioGroupOne_1"
+                    name="formOne_RadioGroupOne[0]"
+                    onChange={[Function]}
+                    type="radio"
+                    value="2"
+                  />
+                  <i
+                    className="c-radio__icon"
+                  />
+                  <span
+                    className="c-radio__label"
+                  >
+                    Other
+                  </span>
+                </label>,
+                "className": "col-12 col-md-10",
+                "htmlFor": "formOne_RadioGroupOne_1",
+                "role": "listitem",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                class="col-12 col-md-10"
+                for="formOne_RadioGroupOne_1"
+                role="listitem"
+              >
+                <label
+                  class="js-multi-select__option c-multi-select__option c-radio"
+                >
+                  <input
+                    class="c-radio__input"
+                    id="formOne_RadioGroupOne_1"
+                    name="formOne_RadioGroupOne[0]"
+                    type="radio"
+                    value="2"
+                  />
+                  <i
+                    class="c-radio__icon"
+                  />
+                  <span
+                    class="c-radio__label"
+                  >
+                    Other
+                  </span>
+                </label>
+              </div>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 1,
+            "elementType": [Function],
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 1,
+            "key": "1",
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Purchase",
+                  "value": "1",
+                },
+                Object {
+                  "label": "Other",
+                  "value": "2",
+                },
+              ],
+              "id": "formOne_RadioGroupOne",
+              "index": 1,
+              "label": "RadioGroup Label",
+              "onChange": [Function],
+              "option": Object {
+                "label": "Other",
+                "value": "2",
+              },
+              "options": Object {
+                "enumOptions": Array [
+                  Object {
+                    "label": "Purchase",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "Other",
+                    "value": "2",
+                  },
+                ],
+              },
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Purchase",
+                  "value": "1",
+                },
+                Object {
+                  "label": "Other",
+                  "value": "2",
+                },
+              ],
+              "id": "formOne_RadioGroupOne",
+              "index": 1,
+              "label": "RadioGroup Label",
+              "onChange": [Function],
+              "option": Object {
+                "label": "Other",
+                "value": "2",
+              },
+              "options": Object {
+                "enumOptions": Array [
+                  Object {
+                    "label": "Purchase",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "Other",
+                    "value": "2",
+                  },
+                ],
+              },
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": null,
+            "tag": 0,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "stateNode": null,
+          "tag": 0,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "childExpirationTime": 0,
+        "contextDependencies": null,
+        "effectTag": 0,
+        "elementType": "fieldset",
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 1,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "children": Array [
+            <Radiotem
+              enumOptions={
+                Array [
+                  Object {
+                    "label": "Purchase",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "Other",
+                    "value": "2",
+                  },
+                ]
+              }
+              id="formOne_RadioGroupOne"
+              index={0}
+              label="RadioGroup Label"
+              onChange={[Function]}
+              option={
+                Object {
+                  "label": "Purchase",
+                  "value": "1",
+                }
+              }
+              options={
+                Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Purchase",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "Other",
+                      "value": "2",
+                    },
+                  ],
+                }
+              }
+            />,
+            <Radiotem
+              enumOptions={
+                Array [
+                  Object {
+                    "label": "Purchase",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "Other",
+                    "value": "2",
+                  },
+                ]
+              }
+              id="formOne_RadioGroupOne"
+              index={1}
+              label="RadioGroup Label"
+              onChange={[Function]}
+              option={
+                Object {
+                  "label": "Other",
+                  "value": "2",
+                }
+              }
+              options={
+                Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Purchase",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "Other",
+                      "value": "2",
+                    },
+                  ],
+                }
+              }
+            />,
+          ],
+          "className": "js-multi-select c-multi-select row c-multi-select--condensed",
+          "id": "formOne_RadioGroupOne",
+          "role": "list",
+        },
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "children": Array [
+            <Radiotem
+              enumOptions={
+                Array [
+                  Object {
+                    "label": "Purchase",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "Other",
+                    "value": "2",
+                  },
+                ]
+              }
+              id="formOne_RadioGroupOne"
+              index={0}
+              label="RadioGroup Label"
+              onChange={[Function]}
+              option={
+                Object {
+                  "label": "Purchase",
+                  "value": "1",
+                }
+              }
+              options={
+                Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Purchase",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "Other",
+                      "value": "2",
+                    },
+                  ],
+                }
+              }
+            />,
+            <Radiotem
+              enumOptions={
+                Array [
+                  Object {
+                    "label": "Purchase",
+                    "value": "1",
+                  },
+                  Object {
+                    "label": "Other",
+                    "value": "2",
+                  },
+                ]
+              }
+              id="formOne_RadioGroupOne"
+              index={1}
+              label="RadioGroup Label"
+              onChange={[Function]}
+              option={
+                Object {
+                  "label": "Other",
+                  "value": "2",
+                }
+              }
+              options={
+                Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Purchase",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "Other",
+                      "value": "2",
+                    },
+                  ],
+                }
+              }
+            />,
+          ],
+          "className": "js-multi-select c-multi-select row c-multi-select--condensed",
+          "id": "formOne_RadioGroupOne",
+          "role": "list",
+        },
+        "ref": null,
+        "return": [Circular],
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": <fieldset
+          class="js-multi-select c-multi-select row c-multi-select--condensed"
+          id="formOne_RadioGroupOne"
+          role="list"
+        >
+          <div
+            class="col-12 col-md-10"
+            for="formOne_RadioGroupOne_0"
+            role="listitem"
+          >
+            <label
+              class="js-multi-select__option c-multi-select__option c-radio"
+            >
+              <input
+                class="c-radio__input"
+                id="formOne_RadioGroupOne_0"
+                name="formOne_RadioGroupOne[0]"
+                type="radio"
+                value="1"
+              />
+              <i
+                class="c-radio__icon"
+              />
+              <span
+                class="c-radio__label"
+              >
+                Purchase
+              </span>
+            </label>
+          </div>
+          <div
+            class="col-12 col-md-10"
+            for="formOne_RadioGroupOne_1"
+            role="listitem"
+          >
+            <label
+              class="js-multi-select__option c-multi-select__option c-radio"
+            >
+              <input
+                class="c-radio__input"
+                id="formOne_RadioGroupOne_1"
+                name="formOne_RadioGroupOne[0]"
+                type="radio"
+                value="2"
+              />
+              <i
+                class="c-radio__icon"
+              />
+              <span
+                class="c-radio__label"
+              >
+                Other
+              </span>
+            </label>
+          </div>
+        </fieldset>,
+        "tag": 5,
+        "treeBaseDuration": 0,
+        "type": "fieldset",
+        "updateQueue": null,
+      },
+      "stateNode": null,
+      "tag": 0,
+      "treeBaseDuration": 0,
+      "type": [Function],
+      "updateQueue": null,
+    },
+    "childExpirationTime": 0,
+    "contextDependencies": null,
+    "effectTag": 1,
+    "elementType": [Function],
+    "expirationTime": 0,
+    "firstEffect": null,
+    "index": 0,
+    "key": null,
+    "lastEffect": null,
+    "memoizedProps": Object {
+      "id": "formOne_RadioGroupOne",
+      "label": "RadioGroup Label",
+      "onChange": [Function],
+      "options": Object {
+        "enumOptions": Array [
+          Object {
+            "label": "Purchase",
+            "value": "1",
+          },
+          Object {
+            "label": "Other",
+            "value": "2",
+          },
+        ],
+      },
+    },
+    "memoizedState": null,
+    "mode": 0,
+    "nextEffect": null,
+    "pendingProps": Object {
+      "id": "formOne_RadioGroupOne",
+      "label": "RadioGroup Label",
+      "onChange": [Function],
+      "options": Object {
+        "enumOptions": Array [
+          Object {
+            "label": "Purchase",
+            "value": "1",
+          },
+          Object {
+            "label": "Other",
+            "value": "2",
+          },
+        ],
+      },
+    },
+    "ref": null,
+    "return": FiberNode {
+      "_debugHookTypes": null,
+      "_debugID": 62,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": null,
+      "_debugSource": null,
+      "actualDuration": 0,
+      "actualStartTime": -1,
+      "alternate": null,
+      "child": [Circular],
+      "childExpirationTime": 0,
+      "contextDependencies": null,
+      "effectTag": 1,
+      "elementType": [Function],
+      "expirationTime": 0,
+      "firstEffect": null,
+      "index": 0,
+      "key": null,
+      "lastEffect": null,
+      "memoizedProps": Object {
+        "Component": [Function],
+        "context": null,
+        "props": Object {
+          "id": "formOne_RadioGroupOne",
+          "label": "RadioGroup Label",
+          "onChange": [Function],
+          "options": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Purchase",
+                "value": "1",
+              },
+              Object {
+                "label": "Other",
+                "value": "2",
+              },
+            ],
+          },
+        },
+        "wrappingComponentProps": null,
+      },
+      "memoizedState": Object {
+        "context": null,
+        "mount": true,
+        "props": Object {
+          "id": "formOne_RadioGroupOne",
+          "label": "RadioGroup Label",
+          "onChange": [Function],
+          "options": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Purchase",
+                "value": "1",
+              },
+              Object {
+                "label": "Other",
+                "value": "2",
+              },
+            ],
+          },
+        },
+        "wrappingComponentProps": null,
+      },
+      "mode": 0,
+      "nextEffect": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 60,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 60,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": [Circular],
+          "child": null,
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 0,
+          "elementType": null,
+          "expirationTime": 1073741823,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": null,
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": null,
+          "ref": null,
+          "return": null,
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": Object {
+            "containerInfo": <div>
+              <label
+                for="formOne_RadioGroupOne"
+              >
+                RadioGroup Label
+              </label>
+              <fieldset
+                class="js-multi-select c-multi-select row c-multi-select--condensed"
+                id="formOne_RadioGroupOne"
+                role="list"
+              >
+                <div
+                  class="col-12 col-md-10"
+                  for="formOne_RadioGroupOne_0"
+                  role="listitem"
+                >
+                  <label
+                    class="js-multi-select__option c-multi-select__option c-radio"
+                  >
+                    <input
+                      class="c-radio__input"
+                      id="formOne_RadioGroupOne_0"
+                      name="formOne_RadioGroupOne[0]"
+                      type="radio"
+                      value="1"
+                    />
+                    <i
+                      class="c-radio__icon"
+                    />
+                    <span
+                      class="c-radio__label"
+                    >
+                      Purchase
+                    </span>
+                  </label>
+                </div>
+                <div
+                  class="col-12 col-md-10"
+                  for="formOne_RadioGroupOne_1"
+                  role="listitem"
+                >
+                  <label
+                    class="js-multi-select__option c-multi-select__option c-radio"
+                  >
+                    <input
+                      class="c-radio__input"
+                      id="formOne_RadioGroupOne_1"
+                      name="formOne_RadioGroupOne[0]"
+                      type="radio"
+                      value="2"
+                    />
+                    <i
+                      class="c-radio__icon"
+                    />
+                    <span
+                      class="c-radio__label"
+                    >
+                      Other
+                    </span>
+                  </label>
+                </div>
+              </fieldset>
+            </div>,
+            "context": Object {},
+            "current": [Circular],
+            "didError": false,
+            "earliestPendingTime": 0,
+            "earliestSuspendedTime": 0,
+            "expirationTime": 0,
+            "finishedWork": null,
+            "firstBatch": null,
+            "hydrate": false,
+            "interactionThreadID": 15,
+            "latestPendingTime": 0,
+            "latestPingedTime": 0,
+            "latestSuspendedTime": 0,
+            "memoizedInteractions": Set {},
+            "nextExpirationTimeToWorkOn": 0,
+            "nextScheduledRoot": null,
+            "pendingChildren": null,
+            "pendingCommitExpirationTime": 0,
+            "pendingContext": null,
+            "pendingInteractionMap": Map {},
+            "pingCache": null,
+            "timeoutHandle": -1,
+          },
+          "tag": 3,
+          "treeBaseDuration": 0,
+          "type": null,
+          "updateQueue": Object {
+            "baseState": null,
+            "firstCapturedEffect": null,
+            "firstCapturedUpdate": null,
+            "firstEffect": null,
+            "firstUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_RadioGroupOne",
+                      "label": "RadioGroup Label",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Purchase",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "Other",
+                            "value": "2",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+            "lastCapturedEffect": null,
+            "lastCapturedUpdate": null,
+            "lastEffect": null,
+            "lastUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_RadioGroupOne",
+                      "label": "RadioGroup Label",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Purchase",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "Other",
+                            "value": "2",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+          },
+        },
+        "child": [Circular],
+        "childExpirationTime": 0,
+        "contextDependencies": null,
+        "effectTag": 32,
+        "elementType": null,
+        "expirationTime": 0,
+        "firstEffect": [Circular],
+        "index": 0,
+        "key": null,
+        "lastEffect": [Circular],
+        "memoizedProps": null,
+        "memoizedState": Object {
+          "element": <WrapperComponent
+            Component={[Function]}
+            context={null}
+            props={
+              Object {
+                "id": "formOne_RadioGroupOne",
+                "label": "RadioGroup Label",
+                "onChange": [Function],
+                "options": Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Purchase",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "Other",
+                      "value": "2",
+                    },
+                  ],
+                },
+              }
+            }
+            wrappingComponentProps={null}
+          />,
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": Object {
+          "containerInfo": <div>
+            <label
+              for="formOne_RadioGroupOne"
+            >
+              RadioGroup Label
+            </label>
+            <fieldset
+              class="js-multi-select c-multi-select row c-multi-select--condensed"
+              id="formOne_RadioGroupOne"
+              role="list"
+            >
+              <div
+                class="col-12 col-md-10"
+                for="formOne_RadioGroupOne_0"
+                role="listitem"
+              >
+                <label
+                  class="js-multi-select__option c-multi-select__option c-radio"
+                >
+                  <input
+                    class="c-radio__input"
+                    id="formOne_RadioGroupOne_0"
+                    name="formOne_RadioGroupOne[0]"
+                    type="radio"
+                    value="1"
+                  />
+                  <i
+                    class="c-radio__icon"
+                  />
+                  <span
+                    class="c-radio__label"
+                  >
+                    Purchase
+                  </span>
+                </label>
+              </div>
+              <div
+                class="col-12 col-md-10"
+                for="formOne_RadioGroupOne_1"
+                role="listitem"
+              >
+                <label
+                  class="js-multi-select__option c-multi-select__option c-radio"
+                >
+                  <input
+                    class="c-radio__input"
+                    id="formOne_RadioGroupOne_1"
+                    name="formOne_RadioGroupOne[0]"
+                    type="radio"
+                    value="2"
+                  />
+                  <i
+                    class="c-radio__icon"
+                  />
+                  <span
+                    class="c-radio__label"
+                  >
+                    Other
+                  </span>
+                </label>
+              </div>
+            </fieldset>
+          </div>,
+          "context": Object {},
+          "current": [Circular],
+          "didError": false,
+          "earliestPendingTime": 0,
+          "earliestSuspendedTime": 0,
+          "expirationTime": 0,
+          "finishedWork": null,
+          "firstBatch": null,
+          "hydrate": false,
+          "interactionThreadID": 15,
+          "latestPendingTime": 0,
+          "latestPingedTime": 0,
+          "latestSuspendedTime": 0,
+          "memoizedInteractions": Set {},
+          "nextExpirationTimeToWorkOn": 0,
+          "nextScheduledRoot": null,
+          "pendingChildren": null,
+          "pendingCommitExpirationTime": 0,
+          "pendingContext": null,
+          "pendingInteractionMap": Map {},
+          "pingCache": null,
+          "timeoutHandle": -1,
+        },
+        "tag": 3,
+        "treeBaseDuration": 0,
+        "type": null,
+        "updateQueue": Object {
+          "baseState": Object {
+            "element": <WrapperComponent
+              Component={[Function]}
+              context={null}
+              props={
+                Object {
+                  "id": "formOne_RadioGroupOne",
+                  "label": "RadioGroup Label",
+                  "onChange": [Function],
+                  "options": Object {
+                    "enumOptions": Array [
+                      Object {
+                        "label": "Purchase",
+                        "value": "1",
+                      },
+                      Object {
+                        "label": "Other",
+                        "value": "2",
+                      },
+                    ],
+                  },
+                }
+              }
+              wrappingComponentProps={null}
+            />,
+          },
+          "firstCapturedEffect": null,
+          "firstCapturedUpdate": null,
+          "firstEffect": null,
+          "firstUpdate": null,
+          "lastCapturedEffect": null,
+          "lastCapturedUpdate": null,
+          "lastEffect": null,
+          "lastUpdate": null,
+        },
+      },
+      "pendingProps": Object {
+        "Component": [Function],
+        "context": null,
+        "props": Object {
+          "id": "formOne_RadioGroupOne",
+          "label": "RadioGroup Label",
+          "onChange": [Function],
+          "options": Object {
+            "enumOptions": Array [
+              Object {
+                "label": "Purchase",
+                "value": "1",
+              },
+              Object {
+                "label": "Other",
+                "value": "2",
+              },
+            ],
+          },
+        },
+        "wrappingComponentProps": null,
+      },
+      "ref": null,
+      "return": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 60,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 60,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": [Circular],
+          "child": null,
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 0,
+          "elementType": null,
+          "expirationTime": 1073741823,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": null,
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": null,
+          "ref": null,
+          "return": null,
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": Object {
+            "containerInfo": <div>
+              <label
+                for="formOne_RadioGroupOne"
+              >
+                RadioGroup Label
+              </label>
+              <fieldset
+                class="js-multi-select c-multi-select row c-multi-select--condensed"
+                id="formOne_RadioGroupOne"
+                role="list"
+              >
+                <div
+                  class="col-12 col-md-10"
+                  for="formOne_RadioGroupOne_0"
+                  role="listitem"
+                >
+                  <label
+                    class="js-multi-select__option c-multi-select__option c-radio"
+                  >
+                    <input
+                      class="c-radio__input"
+                      id="formOne_RadioGroupOne_0"
+                      name="formOne_RadioGroupOne[0]"
+                      type="radio"
+                      value="1"
+                    />
+                    <i
+                      class="c-radio__icon"
+                    />
+                    <span
+                      class="c-radio__label"
+                    >
+                      Purchase
+                    </span>
+                  </label>
+                </div>
+                <div
+                  class="col-12 col-md-10"
+                  for="formOne_RadioGroupOne_1"
+                  role="listitem"
+                >
+                  <label
+                    class="js-multi-select__option c-multi-select__option c-radio"
+                  >
+                    <input
+                      class="c-radio__input"
+                      id="formOne_RadioGroupOne_1"
+                      name="formOne_RadioGroupOne[0]"
+                      type="radio"
+                      value="2"
+                    />
+                    <i
+                      class="c-radio__icon"
+                    />
+                    <span
+                      class="c-radio__label"
+                    >
+                      Other
+                    </span>
+                  </label>
+                </div>
+              </fieldset>
+            </div>,
+            "context": Object {},
+            "current": [Circular],
+            "didError": false,
+            "earliestPendingTime": 0,
+            "earliestSuspendedTime": 0,
+            "expirationTime": 0,
+            "finishedWork": null,
+            "firstBatch": null,
+            "hydrate": false,
+            "interactionThreadID": 15,
+            "latestPendingTime": 0,
+            "latestPingedTime": 0,
+            "latestSuspendedTime": 0,
+            "memoizedInteractions": Set {},
+            "nextExpirationTimeToWorkOn": 0,
+            "nextScheduledRoot": null,
+            "pendingChildren": null,
+            "pendingCommitExpirationTime": 0,
+            "pendingContext": null,
+            "pendingInteractionMap": Map {},
+            "pingCache": null,
+            "timeoutHandle": -1,
+          },
+          "tag": 3,
+          "treeBaseDuration": 0,
+          "type": null,
+          "updateQueue": Object {
+            "baseState": null,
+            "firstCapturedEffect": null,
+            "firstCapturedUpdate": null,
+            "firstEffect": null,
+            "firstUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_RadioGroupOne",
+                      "label": "RadioGroup Label",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Purchase",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "Other",
+                            "value": "2",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+            "lastCapturedEffect": null,
+            "lastCapturedUpdate": null,
+            "lastEffect": null,
+            "lastUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "id": "formOne_RadioGroupOne",
+                      "label": "RadioGroup Label",
+                      "onChange": [Function],
+                      "options": Object {
+                        "enumOptions": Array [
+                          Object {
+                            "label": "Purchase",
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "Other",
+                            "value": "2",
+                          },
+                        ],
+                      },
+                    }
+                  }
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+          },
+        },
+        "child": [Circular],
+        "childExpirationTime": 0,
+        "contextDependencies": null,
+        "effectTag": 32,
+        "elementType": null,
+        "expirationTime": 0,
+        "firstEffect": [Circular],
+        "index": 0,
+        "key": null,
+        "lastEffect": [Circular],
+        "memoizedProps": null,
+        "memoizedState": Object {
+          "element": <WrapperComponent
+            Component={[Function]}
+            context={null}
+            props={
+              Object {
+                "id": "formOne_RadioGroupOne",
+                "label": "RadioGroup Label",
+                "onChange": [Function],
+                "options": Object {
+                  "enumOptions": Array [
+                    Object {
+                      "label": "Purchase",
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "Other",
+                      "value": "2",
+                    },
+                  ],
+                },
+              }
+            }
+            wrappingComponentProps={null}
+          />,
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": Object {
+          "containerInfo": <div>
+            <label
+              for="formOne_RadioGroupOne"
+            >
+              RadioGroup Label
+            </label>
+            <fieldset
+              class="js-multi-select c-multi-select row c-multi-select--condensed"
+              id="formOne_RadioGroupOne"
+              role="list"
+            >
+              <div
+                class="col-12 col-md-10"
+                for="formOne_RadioGroupOne_0"
+                role="listitem"
+              >
+                <label
+                  class="js-multi-select__option c-multi-select__option c-radio"
+                >
+                  <input
+                    class="c-radio__input"
+                    id="formOne_RadioGroupOne_0"
+                    name="formOne_RadioGroupOne[0]"
+                    type="radio"
+                    value="1"
+                  />
+                  <i
+                    class="c-radio__icon"
+                  />
+                  <span
+                    class="c-radio__label"
+                  >
+                    Purchase
+                  </span>
+                </label>
+              </div>
+              <div
+                class="col-12 col-md-10"
+                for="formOne_RadioGroupOne_1"
+                role="listitem"
+              >
+                <label
+                  class="js-multi-select__option c-multi-select__option c-radio"
+                >
+                  <input
+                    class="c-radio__input"
+                    id="formOne_RadioGroupOne_1"
+                    name="formOne_RadioGroupOne[0]"
+                    type="radio"
+                    value="2"
+                  />
+                  <i
+                    class="c-radio__icon"
+                  />
+                  <span
+                    class="c-radio__label"
+                  >
+                    Other
+                  </span>
+                </label>
+              </div>
+            </fieldset>
+          </div>,
+          "context": Object {},
+          "current": [Circular],
+          "didError": false,
+          "earliestPendingTime": 0,
+          "earliestSuspendedTime": 0,
+          "expirationTime": 0,
+          "finishedWork": null,
+          "firstBatch": null,
+          "hydrate": false,
+          "interactionThreadID": 15,
+          "latestPendingTime": 0,
+          "latestPingedTime": 0,
+          "latestSuspendedTime": 0,
+          "memoizedInteractions": Set {},
+          "nextExpirationTimeToWorkOn": 0,
+          "nextScheduledRoot": null,
+          "pendingChildren": null,
+          "pendingCommitExpirationTime": 0,
+          "pendingContext": null,
+          "pendingInteractionMap": Map {},
+          "pingCache": null,
+          "timeoutHandle": -1,
+        },
+        "tag": 3,
+        "treeBaseDuration": 0,
+        "type": null,
+        "updateQueue": Object {
+          "baseState": Object {
+            "element": <WrapperComponent
+              Component={[Function]}
+              context={null}
+              props={
+                Object {
+                  "id": "formOne_RadioGroupOne",
+                  "label": "RadioGroup Label",
+                  "onChange": [Function],
+                  "options": Object {
+                    "enumOptions": Array [
+                      Object {
+                        "label": "Purchase",
+                        "value": "1",
+                      },
+                      Object {
+                        "label": "Other",
+                        "value": "2",
+                      },
+                    ],
+                  },
+                }
+              }
+              wrappingComponentProps={null}
+            />,
+          },
+          "firstCapturedEffect": null,
+          "firstCapturedUpdate": null,
+          "firstEffect": null,
+          "firstUpdate": null,
+          "lastCapturedEffect": null,
+          "lastCapturedUpdate": null,
+          "lastEffect": null,
+          "lastUpdate": null,
+        },
+      },
+      "selfBaseDuration": 0,
+      "sibling": null,
+      "stateNode": WrapperComponent {
+        "_reactInternalFiber": [Circular],
+        "_reactInternalInstance": Object {},
+        "context": Object {},
+        "props": Object {
+          "Component": [Function],
+          "context": null,
+          "props": Object {
+            "id": "formOne_RadioGroupOne",
+            "label": "RadioGroup Label",
+            "onChange": [Function],
+            "options": Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Purchase",
+                  "value": "1",
+                },
+                Object {
+                  "label": "Other",
+                  "value": "2",
+                },
+              ],
+            },
+          },
+          "wrappingComponentProps": null,
+        },
+        "refs": Object {},
+        "rootFinderInstance": null,
+        "state": Object {
+          "context": null,
+          "mount": true,
+          "props": Object {
+            "id": "formOne_RadioGroupOne",
+            "label": "RadioGroup Label",
+            "onChange": [Function],
+            "options": Object {
+              "enumOptions": Array [
+                Object {
+                  "label": "Purchase",
+                  "value": "1",
+                },
+                Object {
+                  "label": "Other",
+                  "value": "2",
+                },
+              ],
+            },
+          },
+          "wrappingComponentProps": null,
+        },
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "tag": 1,
+      "treeBaseDuration": 0,
+      "type": [Function],
+      "updateQueue": null,
+    },
+    "selfBaseDuration": 0,
+    "sibling": null,
+    "stateNode": [Circular],
+    "tag": 1,
+    "treeBaseDuration": 0,
+    "type": [Function],
+    "updateQueue": null,
+  },
+  "_reactInternalInstance": Object {},
+  "context": Object {},
+  "props": Object {
+    "id": "formOne_RadioGroupOne",
+    "label": "RadioGroup Label",
+    "onChange": [Function],
+    "options": Object {
+      "enumOptions": Array [
+        Object {
+          "label": "Purchase",
+          "value": "1",
+        },
+        Object {
+          "label": "Other",
+          "value": "2",
+        },
+      ],
+    },
+  },
+  "refs": Object {},
+  "state": null,
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
+
+exports[`RadioGroup render_RadioGroup 1`] = `
+<React.Fragment>
+  <Label
+    id="formOne_RadioGroupOne"
+    label="RadioGroup Label"
+    onChange={[Function]}
+    options={
+      Object {
+        "enumOptions": Array [
+          Object {
+            "label": "Purchase",
+            "value": "1",
+          },
+          Object {
+            "label": "Other",
+            "value": "2",
+          },
+        ],
+      }
+    }
+  />
+  <fieldset
+    className="js-multi-select c-multi-select row c-multi-select--condensed"
+    id="formOne_RadioGroupOne"
+    role="list"
+  >
+    <Radiotem
+      enumOptions={
+        Array [
+          Object {
+            "label": "Purchase",
+            "value": "1",
+          },
+          Object {
+            "label": "Other",
+            "value": "2",
+          },
+        ]
+      }
+      id="formOne_RadioGroupOne"
+      index={0}
+      label="RadioGroup Label"
+      onChange={[Function]}
+      option={
+        Object {
+          "label": "Purchase",
+          "value": "1",
+        }
+      }
+      options={
+        Object {
+          "enumOptions": Array [
+            Object {
+              "label": "Purchase",
+              "value": "1",
+            },
+            Object {
+              "label": "Other",
+              "value": "2",
+            },
+          ],
+        }
+      }
+    />
+    <Radiotem
+      enumOptions={
+        Array [
+          Object {
+            "label": "Purchase",
+            "value": "1",
+          },
+          Object {
+            "label": "Other",
+            "value": "2",
+          },
+        ]
+      }
+      id="formOne_RadioGroupOne"
+      index={1}
+      label="RadioGroup Label"
+      onChange={[Function]}
+      option={
+        Object {
+          "label": "Other",
+          "value": "2",
+        }
+      }
+      options={
+        Object {
+          "enumOptions": Array [
+            Object {
+              "label": "Purchase",
+              "value": "1",
+            },
+            Object {
+              "label": "Other",
+              "value": "2",
+            },
+          ],
+        }
+      }
+    />
+  </fieldset>
+</React.Fragment>
+`;
