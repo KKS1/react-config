@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Label render_Label 1`] = `
-<label
-  htmlFor="formOne_labaleOne"
->
-  loan question
-</label>
-`;
